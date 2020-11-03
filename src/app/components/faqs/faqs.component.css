@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Helvetica;
+    src: url('../../../assets/fonts/Helvetica.ttf');
+}
+
+* {
+    width: 100vh;
+    font-family: Helvetica;
+    font-weight: normal;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: #97C93C;
+}
+
+.collapse {
+    background-color: white;
+}
+
+.card-header {
+    border-radius: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    position: relative;
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #0163A8;
+}
