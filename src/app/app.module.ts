@@ -8,8 +8,11 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import * as AOS from 'aos';
+
 import { BrindadoComponent } from './components/brindado/brindado.component';
 import { MapaComponent } from './components/mapa/mapa.component';
+import { TalleresComponent } from './components/talleres/talleres.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +22,8 @@ import { MapaComponent } from './components/mapa/mapa.component';
     FooterComponent,
     ContactoComponent,
     BrindadoComponent,
-    MapaComponent
+    MapaComponent,
+    TalleresComponent
   ],
   imports: [
     BrowserModule
