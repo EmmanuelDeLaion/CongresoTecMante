@@ -1,0 +1,62 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="row align-items-center">
+                <div class="col-3 d-none d-sm-block">
+                    <img class="img-header" src="../../../assets//images//conferencistas//notfound.png" alt="" srcset="">
+                </div>
+                <div class="col-12 col-sm-9 text-center">
+                    <h1>Conferencistas congreso 2020</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-12">
+                                <h1 class="text-center">IGE</h1>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-3" *ngFor="let conferencista of conferensistasIGE">
+                                <div class="card d-flex align-items-center" style="width: 13rem;">
+                                    <img class="card-img-top" src="{{conferencista.img}}" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">{{conferencista.nombre}}</h5>
+                                            <p class="card-text">{{conferencista.Temas}}</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-3" *ngFor="let conferencista of conferencistasIND">
+                                <div class="card d-flex align-items-center" style="width: 15rem;">
+                                    <img class="card-img-top" src="{{conferencista.img}}" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">{{conferencista.nombre}}</h5>
+                                            <p class="card-text">{{conferencista.Temas}}</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-3" *ngFor="let conferencista of conferencistasIIAS">
+                                <div class="card d-flex align-items-center" style="width: 15rem;">
+                                    <img class="card-img-top" src="{{conferencista.img}}" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">{{conferencista.nombre}}</h5>
+                                            <p class="card-text">{{conferencista.Temas}}</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</div>

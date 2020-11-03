@@ -123,9 +123,15 @@
   },
   "defaultProject": "CongresoITSM",
   "cli": {
+
+    "analytics": false
+  }
+}
     "analytics": "2aef0973-d94a-4890-adeb-ea9c6803f85f"
   }
 }
+
+
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
@@ -250,3 +256,4 @@
     }},
   "defaultProject": "CongresoITSM"
 }
+

@@ -2,6 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+
+import { ConferencistasComponent } from './components/conferencistas/conferencistas.component';
+import { HttpClientModule } from "@angular/common/http";
 import { FaqsComponent } from './components/faqs/faqs.component';
 import { CabeceraComponent } from './components/cabecera/cabecera.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -13,9 +16,11 @@ import { BrindadoComponent } from './components/brindado/brindado.component';
 import { MapaComponent } from './components/mapa/mapa.component';
 import { TalleresComponent } from './components/talleres/talleres.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
+    ConferencistasComponent,
     FaqsComponent,
     CabeceraComponent,
     NavbarComponent,
@@ -26,7 +31,8 @@ import { TalleresComponent } from './components/talleres/talleres.component';
     TalleresComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
