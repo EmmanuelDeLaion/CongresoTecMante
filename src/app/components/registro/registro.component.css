@@ -1,0 +1,75 @@
+.principal {
+    height: 120vh;
+}
+
+.padre {
+    background: url("../../../assets/images/fondoderegistro.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    position: relative;
+}
+
+texto {
+    text-align: center;
+}
+
+@mixin texto($color) {
+    color: $color;
+}
+
+.login {
+    background-color: white;
+    padding: 45px;
+    border-radius: 1em;
+    width: 100%;
+    box-shadow: 0px 0px 15px #252525;
+}
+
+.row {
+    width: 100%;
+}
+
+.text {
+    position: relative;
+    top: 210px;
+    left: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+    border: none;
+}
+
+.input-group {
+    box-shadow: 0px 0px 3px #252525;
+}
+
+.icon {
+    position: relative;
+    min-width: 40px;
+    height: 15px;
+    text-align: center;
+    top: 12px;
+    color: gray;
+}
+
+.form-control {
+    border: none;
+}
+
+.boton-iniciar {
+    border: none;
+    border-radius: 2em;
+    width: 100%;
+    background: gray;
+    box-shadow: 0px 0px 5px #252525;
+}
+
+.boton-iniciar:hover {
+    background-color: #41B4E5;
+    /* Green */
+    color: white;
+}

@@ -16,6 +16,10 @@ import { BrindadoComponent } from './components/brindado/brindado.component';
 import { MapaComponent } from './components/mapa/mapa.component';
 import { TalleresComponent } from './components/talleres/talleres.component';
 
+import { RegistroComponent } from './components/registro/registro.component';
+import { VideoComponent } from './components/video/video.component';
+
+
 
 @NgModule({
   declarations: [
@@ -26,6 +30,9 @@ import { TalleresComponent } from './components/talleres/talleres.component';
     NavbarComponent,
     FooterComponent,
     ContactoComponent,
+    TalleresComponent,
+    RegistroComponent,
+    VideoComponent,
     BrindadoComponent,
     MapaComponent,
     TalleresComponent
