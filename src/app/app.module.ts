@@ -8,6 +8,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import * as AOS from 'aos';
+import { BrindadoComponent } from './components/brindado/brindado.component';
+import { MapaComponent } from './components/mapa/mapa.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +17,9 @@ import * as AOS from 'aos';
     CabeceraComponent,
     NavbarComponent,
     FooterComponent,
-    ContactoComponent
+    ContactoComponent,
+    BrindadoComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule
