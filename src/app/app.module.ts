@@ -18,6 +18,7 @@ import { TalleresComponent } from './components/talleres/talleres.component';
 
 import { RegistroComponent } from './components/registro/registro.component';
 import { VideoComponent } from './components/video/video.component';
+import { ObjetivoComponent } from './components/objetivo/objetivo.component';
 
 
 
@@ -35,7 +36,8 @@ import { VideoComponent } from './components/video/video.component';
     VideoComponent,
     BrindadoComponent,
     MapaComponent,
-    TalleresComponent
+    TalleresComponent,
+    ObjetivoComponent
   ],
   imports: [
     BrowserModule,

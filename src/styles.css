@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin-top: 70px;
+    overflow-y: scroll;
+}
+ 
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background:  rgb(0,100,167);
+    border-radius: 5px;
+}
