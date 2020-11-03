@@ -1,0 +1,27 @@
+*{
+    font-family: 'Helvetica';
+}
+
+.navbar a{
+    color:#636366;
+    font-size: 14px;
+}
+
+
+.navbar a:hover{
+    color:#0163A8;
+}
+
+.enlaces{
+    background: #ffffff;
+    color: #636366;
+    font-family: 'Novecento wide';
+}
+
+.navbar-collapse{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
