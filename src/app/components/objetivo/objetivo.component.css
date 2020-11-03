@@ -1,0 +1,22 @@
+*{
+    font-family: "Helvetica";
+}
+.objetivo{
+    background-image: url(/../assets/images/portada-objetivo.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    padding: 30px;
+}
+
+h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ 
+p{
+    color: #fff;
+    font-weight: normal;
+}
