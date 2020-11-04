@@ -21,12 +21,15 @@ export class ConferencistasComponent implements OnInit {
     forkJoin({
       confIge: this.http.get('../../../assets/data/conferencistas-ige.json'),
       confInd: this.http.get('../../../assets/data/conferencistas-ind.json'),
-      confIias: this.http.get('../../../assets/data/conferencistas-iias.json')
+      confIias: this.http.get('../../../assets/data/conferencistas-iias.json'),
+      confIq: this.http.get('../../../assets/data/conferencistas-iq.json'),
+      confIsc: this.http.get('../../../assets/data/conferencistas-isc.json')
     }).subscribe(data => {
       this.conferensistasIGE = data.confIge;
-      console.log(data.confIge);
       this.conferencistasIND = data.confInd;
       this.conferencistasIIAS = data.confIias;
+      this.conferencistasIQ = data.confIq;
+      this.conferencistasISC = data.confIsc;
     });
   }
 

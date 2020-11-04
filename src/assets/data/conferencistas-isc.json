@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Angel Eduardo Catedral Gonzalez, Raul Alberto Hernandez Arguelles",
+        "Temas": "PRINCIPIOS SOLID",
+        "descripcion": "none",
+        "inicial": "A-R",
+        "carrera": "IQ",
+        "img": "../../../assets/images/conferencistas/angel-raul.png"
+    },
+    {
+        "nombre": "Miguel Edgardo Santiago Hernandez, Gerardo Joaquin Martinez Hernandez",
+        "Temas": "FULLSTACK APP CON FLUTTER-NODEJS-EXPRESS-SOCKET.IO",
+        "descripcion": "none",
+        "inicial": "M-J",
+        "carrera": "IQ",
+        "img": "../../../assets/images/conferencistas/miguel-joaquin.jpeg"
+    },
+    {
+        "nombre": "Marco Antonio Nava Hernandez",
+        "Temas": "Unity desde cero",
+        "descripcion": "none",
+        "inicial": "M",
+        "carrera": "ISC",
+        "img": "../../../assets/images/conferencistas/marco-nava.jpeg"
+    },
+    {
+        "nombre": "Jose Armando Tovar Sanchez, Luis Antonio Estrada Villegas",
+        "Temas": "Como aprender react de 0 a heroe en 1 dia",
+        "descripcion": "none",
+        "inicial": "J-L",
+        "carrera": "IQ",
+        "img": "none"
+    },
+    {
+        "nombre": "José de Jesús Charles Vázquez",
+        "Temas": "Introducción al modelado 3D para videojuegos",
+        "descripcion": "none",
+        "inicial": "J",
+        "carrera": "IQ",
+        "img": "../../../assets/images/conferencistas/jesus-charles.jpeg"
+    }
+]

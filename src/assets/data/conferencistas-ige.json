@@ -2,6 +2,7 @@
     {
         "nombre": "Victor Alvarado Rodríguez",
         "descripcion": "Director de Mercadotecnia de la Federación Mexicana de Fútbol y catedrático en Johan Cruyff Institute en México y Perú",
+        "inicial": "V",
         "Temas": "Todo es cuestión de propósito",
         "carrera": "IGE",
         "img": "../../../assets/images/conferencistas/victor-alvarado.png"
@@ -9,48 +10,55 @@
     {
         "nombre": "Eva Idalid Salce Morales",
         "descripcion": "...",
+        "inicial": "E",
         "Temas": "Expediente Laboral",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/eva-idalid.png"
+        "img": "../../../assets/images/conferencistas/eva-idalid.jpeg"
     },
     {
         "nombre": "Jose Antonio Coral Morante",
         "descripcion": "Docente del Programa de Administración y Marketing",
+        "inicial": "J",
         "Temas": "strategia de Marketing Digital como generador de valor para el cliente",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/notfound.png"
+        "img": "none"
     },
     {
         "nombre": "Alejandro Trujillo Jiménez",
         "descripcion": "...",
+        "inicial": "A",
         "Temas": "Alta patronal en SUA Empresarial, Cálculo de cuotas obrero - patronal en SUA Empresarial",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/notfound.png"
+        "img": "none"
     },
     {
         "nombre": "Daniel Eduardo Paz Pérez",
         "descripcion": "...",
+        "inicial": "D",
         "Temas": "Nóminas, Sueldos y salarios",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/notfound.png"
+        "img": "none"
     },
     {
         "nombre": "Mónica Alejandra Hernández Garza",
         "descripcion": "...",
+        "inicial": "M",
         "Temas": "Habilidades Sociales para truinfar",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/notfound.png"
+        "img": "none"
     },
     {
         "nombre": "Sindy Sinai Leal Lara",
         "descripcion": "...",
+        "inicial": "S",
         "Temas": "Análisis y solución de problemas",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/notfound.png"
+        "img": "none"
     },
     {
         "nombre": "Gabriel Manasénes Torres Martínez",
         "descripcion": "...",
+        "inicial": "G",
         "Temas": "Análisis y solución de problemas",
         "carrera": "IGE",
         "img": "../../../assets/images/conferencistas/gabriel-mansenes.png"
@@ -58,6 +66,7 @@
     {
         "nombre": "Leidi Margarita Torres Zamarron",
         "descripcion": "...",
+        "inicial": "L",
         "Temas": "Análisis y solución de problemas",
         "carrera": "IGE",
         "img": "../../../assets/images/conferencistas/leidi-margarita.png"
@@ -65,6 +74,7 @@
     {
         "nombre": "Joel Antonio Martinez Hernández",
         "descripcion": "...",
+        "inicial": "J",
         "Temas": "Análisis y solución de problemas",
         "carrera": "IGE",
         "img": "../../../assets/images/conferencistas/joel-antonio.png"
