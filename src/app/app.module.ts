@@ -32,6 +32,7 @@ import { ObjetivoComponent } from './components/objetivo/objetivo.component';
     FooterComponent,
     ContactoComponent,
     TalleresComponent,
+    TemasComponent,
     RegistroComponent,
     TemasComponent,
     VideoComponent,
