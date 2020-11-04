@@ -34,6 +34,7 @@ import { ObjetivoComponent } from './components/objetivo/objetivo.component';
     TalleresComponent,
     TemasComponent,
     RegistroComponent,
+    TemasComponent,
     VideoComponent,
     BrindadoComponent,
     MapaComponent,
