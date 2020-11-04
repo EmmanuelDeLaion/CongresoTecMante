@@ -32,16 +32,13 @@ import { ObjetivoComponent } from './components/objetivo/objetivo.component';
     FooterComponent,
     ContactoComponent,
     TalleresComponent,
-<<<<<<< HEAD
-    TemasComponent
-=======
     RegistroComponent,
+    TemasComponent,
     VideoComponent,
     BrindadoComponent,
     MapaComponent,
     TalleresComponent,
     ObjetivoComponent
->>>>>>> b2dc26f25df8983eff82a9482e5d8d9fa1a20cb3
   ],
   imports: [
     BrowserModule,
