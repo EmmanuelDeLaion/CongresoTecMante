@@ -4,9 +4,7 @@
 }
 
 * {
-    width: 100vh;
-    font-family: Helvetica;
-    font-weight: normal;
+    font-family: 'Helvetica';
 }
 
 .card {
@@ -36,4 +34,20 @@ a {
 
 a:hover {
     color: #0163A8;
+}
+
+h2{
+    color: rgb(70, 70, 70);
+    font-weight: lighter;
+}
+
+
+.badge-preguntas{
+    background-color: #41B4E5;
+    color: #fff;
+    border-radius: 160px;
+}
+
+.faqs{
+    padding: 50px;
 }
