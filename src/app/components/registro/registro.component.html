@@ -1,10 +1,9 @@
 <div class="padre col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
     <div class="principal d-flex align-items-center justify-content-center container-fluid">
         <div class="row">
-            <div class="col-lg-7 col-md-7 col-sm-7  col-xs-7 d-lg-block">
+            <div class="col-lg-2 col-md-3  d-none col-sm-3 col-xs-3 d-lg-block d-md-none d-sm-none d-xs-none"></div>
 
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12 ">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 ">
                 <div class="login">
                     <h5>Registrarse</h5>
                     <form>
@@ -30,7 +29,7 @@
                         <div class="form-group">
                             <label for="juez">Sexo</label>
                             <div class="input-group">
-                                <i class="fas fa-check icon"></i>
+                                <i class="fas fa-child icon"></i>
                                 <select name="" id="" class="form-control">
                                     <option value="Valor2">Masculino</option>
                                     <option value="Valor2">Femenino</option>
@@ -41,7 +40,7 @@
                         <div class="form-group">
                             <label for="password">País</label>
                             <div class="input-group">
-                                <i class="fas fa-check icon"></i>
+                                <i class="fas fa-flag icon"></i>
                                 <select type="email" class="form-control" id="password" placeholder="Pais de origen">
                                     <option value="Valor2">México</option>
                                     <option value="Valor2">Colombia</option>
@@ -52,9 +51,9 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="password">País</label>
+                            <label for="password">Estado</label>
                             <div class="input-group">
-                                <i class="fas fa-check icon"></i>
+                                <i class="fas fa-city icon"></i>
                                 <select type="email" class="form-control" id="password" placeholder="Estado de origen">
                                     <option value="Valor2">Tamaulipas</option>
                                     <option value="Valor2">Guadalajara</option>
@@ -67,22 +66,55 @@
                         <div class="form-group">
                             <label for="email">Correo eléctronico</label>
                             <div class="input-group">
-                                <i class="fas fa-check icon"></i>
+                                <i class="fas fa-at icon"></i>
                                 <input type="email" class="form-control" id="password" placeholder="Correo electronico">
 
                             </div>
                         </div>
 
 
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="check1" (change)="estudiante($event)">
+                                <label class="form-check-label" for="check1">Soy estudiante</label>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group" *ngIf="esEstudiante">
+                            <label for="nombre">Carrera</label>
+                            <div class="input-group">
+                                <i class="fas fa-user-secret icon"></i>
+                                <Input type="text" class="form-control" id="carrera" placeholder="Carrera">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group" *ngIf="esEstudiante">
+                            <label for="nombre">Semestre</label>
+                            <div class="input-group">
+                                <i class="fas fa-sort-numeric-up icon"></i>
+                                <Input type="text" class="form-control" id="semestre" placeholder="Semestre">
+                            </div>
+                        </div>
+
+                        <div class="form-group" *ngIf="esEstudiante">
+                            <label for="nombre">Institución</label>
+                            <div class="input-group">
+                                <i class="fas fa-university icon"></i>
+                                <Input type="text" class="form-control" id="semestre" placeholder="Institución de procedencia">
+                            </div>
+                        </div>
 
 
                         <button class="btn btn-primary boton-iniciar">Registrarse</button>
+
                     </form>
 
                 </div>
 
 
-                <div class="col-1"></div>
+                <div class="col-2"></div>
             </div>
         </div>
     </div>
