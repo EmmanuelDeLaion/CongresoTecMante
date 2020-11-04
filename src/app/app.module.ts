@@ -15,7 +15,7 @@ import * as AOS from 'aos';
 import { BrindadoComponent } from './components/brindado/brindado.component';
 import { MapaComponent } from './components/mapa/mapa.component';
 import { TalleresComponent } from './components/talleres/talleres.component';
-
+import { TemasComponent } from './components/temas/temas.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { VideoComponent } from './components/video/video.component';
 import { ObjetivoComponent } from './components/objetivo/objetivo.component';
@@ -32,12 +32,16 @@ import { ObjetivoComponent } from './components/objetivo/objetivo.component';
     FooterComponent,
     ContactoComponent,
     TalleresComponent,
+<<<<<<< HEAD
+    TemasComponent
+=======
     RegistroComponent,
     VideoComponent,
     BrindadoComponent,
     MapaComponent,
     TalleresComponent,
     ObjetivoComponent
+>>>>>>> b2dc26f25df8983eff82a9482e5d8d9fa1a20cb3
   ],
   imports: [
     BrowserModule,

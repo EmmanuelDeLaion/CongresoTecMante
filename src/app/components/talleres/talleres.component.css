@@ -1,25 +1,31 @@
 * {
-  font-family: "Helvetica";
+    font-family: "Helvetica";
 }
 
 h2 {
-  color: #fff;
-  font-weight: lighter;
+    color: #fff;
+    font-weight: lighter;
 }
 
 p {
-  color: #fff;
-  font-weight: 100;
-  text-align: justify;
+    color: #fff;
+    font-weight: 100;
+    text-align: justify;
 }
 
 .badge-talleres {
-  background-color: #fff;
-  color: #41b4e5;
-  border-radius: 150px;
+    background-color: #fff;
+    color: #41b4e5;
+    border-radius: 150px;
 }
 
 .talleres {
-  background-color: #41b4e5;
-  padding: 100px;
+    <<<<<<< HEAD background-color: #41b4e5;
+    padding: 50px;
 }
+
+=======background-color: #41b4e5;
+padding: 100px;
+
+}
+>>>>>>>b2dc26f25df8983eff82a9482e5d8d9fa1a20cb3
