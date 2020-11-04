@@ -1,0 +1,22 @@
+.mapa {
+    background: url('/assets/images/mapa-desenfocado.png') no-repeat;
+    background-size: cover;
+}
+
+.fondo-cont {
+    background-color: #41B4E5;
+    color: white;
+}
+
+.margen {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 80px;
+    border-radius: 4px;
+}
+
+.badge-mapa-btn {
+    background-color: #41B4E5;
+    color: #fff;
+    border-radius: 150px;
+}

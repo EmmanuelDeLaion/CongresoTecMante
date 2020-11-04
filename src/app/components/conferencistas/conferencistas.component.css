@@ -1,0 +1,33 @@
+* {
+    font-family: url(/../assets/fonts/Helvetica.ttf);
+}
+.card-img-top {
+    border-radius: 1em;
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    border: none;
+    font-size: 15px;
+}
+
+.img-header {
+    width: 100px;
+}
+
+.conferencistas{
+    padding: 50px;
+}
+
+
+.badge-conferencista {
+    background-color: #41B4E5;
+    color: #fff;
+    border-radius: 160px;
+}
+
+h2{
+    color: rgb(70, 70, 70);
+    font-weight: lighter;
+}

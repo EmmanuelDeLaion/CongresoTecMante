@@ -1,0 +1,19 @@
+h2 {
+    color: rgb(70, 70, 70);
+    font-weight: lighter;
+}
+
+.badge-brindado {
+    background-color: #41B4E5;
+    color: #fff;
+    border-radius: 160px;
+}
+
+.brindado {
+    padding: 100px;
+}
+
+.tamaño-logo {
+    width: 200px;
+    height: 100px;
+}

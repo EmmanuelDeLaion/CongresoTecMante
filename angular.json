@@ -119,6 +119,13 @@
           }
         }
       }
-    }},
-  "defaultProject": "CongresoITSM"
+    }
+  },
+  "defaultProject": "CongresoITSM",
+  "cli": {
+    "analytics": "2e05a97f-9097-4cc4-a3e8-57fe210160a7"
+  }
 }
+
+
+
