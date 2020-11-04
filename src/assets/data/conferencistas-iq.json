@@ -1,0 +1,35 @@
+[
+    {
+        "nombre": "Ing. Damian Hernández",
+        "Temas": "Conversión catalítica de emisiones contaminantes de motores Diesel: una aplicación de la Ingeniería Química",
+        "descripcion": "none",
+        "inicial": "D",
+        "carrera": "IQ",
+        "img": "none"
+    },
+    {
+        "nombre": "Dr. C. Jonathan Perez Meseguer",
+        "Temas": "Obtención de aceites esenciales",
+        "descripcion": "none",
+        "inicial": "J",
+        "carrera": "IQ",
+        "img": "none"
+    },
+    {
+        "nombre": "M.C. Elida Lee Bazaldua",
+        "Temas": "Introducción a la Técnica PCR",
+        "descripcion": "none",
+        "inicial": "E",
+        "carrera": "IQ",
+        "img": "none"
+    },
+    {
+        "nombre": "MC Belem Lorelay López Gonzalez ",
+        "Temas": "Polihidroxialcanoatos, ¿el sustituto ideal de los plásticos?",
+        "descripcion": "none",
+        "inicial": "B",
+        "carrera": "IQ",
+        "img": "none"
+    }
+    
+]

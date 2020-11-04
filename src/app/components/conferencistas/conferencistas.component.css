@@ -2,11 +2,17 @@
     font-family: url(/../assets/fonts/Helvetica.ttf);
 }
 .card-img-top {
-    border-radius: 1em;
+    border-radius: 100em;
     width: 150px;
     height: 150px;
 }
 
+.avatar-circle {
+    background-color: #41B4E5;
+    width: 150px;
+    height: 150px;
+    border-radius: 100em;
+}
 .card {
     border: none;
     font-size: 15px;
@@ -30,4 +36,17 @@
 h2{
     color: rgb(70, 70, 70);
     font-weight: lighter;
+}
+.carousel-control-next-icon {
+    background-color: #41B4E5;
+
+}
+.carousel-control-prev-icon {
+    background-color: #41B4E5;
+}
+.carousel-controls{
+    position:relative; 
+    width:200px;
+    top: 20px;
+    margin:0 auto;
 }

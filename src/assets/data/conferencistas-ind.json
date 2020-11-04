@@ -2,77 +2,80 @@
     {
         "nombre": "Ing. Martha Elvira de la Paz",
         "Temas": "Taller de Desarrollo Sustentable",
-        "descripcion": "",
+        "descripcion": "none",
+        "inicial": "M",
         "carrera": "IND",
         "img": "../../../assets/images/conferencistas/marta-elvira.png"
     },
     {
         "nombre": "Ing. Juan Antonio Fuentes Aguilar",
         "Temas": "Conferencia 8 D´S",
-        "descripcion": "",
+        "descripcion": "none",
+        "inicial": "J",
         "carrera": "IND",
         "img": "../../../assets/images/conferencistas/juan-antonio.png"
     },
     {
         "nombre": "M.S.P. Lizzeth Quevedo Nava",
         "Temas": "Taller de Elaboración VSM, Balance Score",
-        "descripcion": "",
+        "descripcion": "none",
+        "inicial": "L",
         "carrera": "IND",
-        "img": "../../../assets/images/conferencistas/lizzeth-quevedo.png"
+        "img": "../../../assets/images/conferencistas/lizzeth-quevedo.jpg"
     },
     {
         "nombre": "Ing. Fernando Chi Osoria",
         "Temas": "Experiencia Laboral en Mabe",
-        "descripcion": "",
+        "descripcion": "none",
+        "inicial": "F",
         "carrera": "IND",
         "img": "../../../assets/images/conferencistas/fernando-chi.png"
     },
     {
-        "nombre": "Ing. Miguel Angel Zuñiga Martínez",
-        "Temas": "Taller HACCCP",
-        "descripcion": "",
-        "carrera": "IND",
-        "img": "../../../assets/images/conferencistas/notfound.png"
-    },
-    {
         "nombre": "Ing. David Coronel Trejo",
         "Temas": "Producción en la Industria Automotriz",
-        "descripcion": "",
+        "descripcion": "none",
+        "inicial": "D",
         "carrera": "IND",
         "img": "../../../assets/images/conferencistas/david-coronel.png"
     },
     {
         "nombre": "Dr. Mario Kanul Ku ",
         "Temas": "Reconocimiento de Objetos 3D mediante tecnicas de curvatura en superficies e inteligencia artificial",
-        "descripcion": "",
+        "descripcion": "none",
+        "inicial": "M",
         "carrera": "IND",
         "img": "../../../assets/images/conferencistas/mario-kanul.png"
     },
     {
         "nombre": "Ing. Miguel Angel Zuñiga Martínez",
-        "Temas": "Taller Autocad",
-        "descripcion": "",
+        "Temas": "Taller Autocad, Taller HACCCP",
+        "descripcion": "none",
+        "inicial": "M",
         "carrera": "IND",
         "img": "../../../assets/images/conferencistas/miguel-angel.png"
     },
     {
         "nombre": "Ing. Carlos Meneces",
         "Temas": "Industria 4.0",
-        "descripcion": "",
+        "descripcion": "none",
+        "inicial": "C",
         "carrera": "IND",
-        "img": "../../../assets/images/conferencistas/notfound.png"
+        "img": "none"
     },
     {
         "nombre": " Ing. Odin Fernando Eufracio Vazquez",
         "Temas": " Taller de  Redes Neuronales",
-        "descripcion": "",
+        "descripcion": "none",
+        "inicial": "O",
         "carrera": "IND",
         "img": "../../../assets/images/conferencistas/fernando-efracio.png"
     },
     {
         "nombre": "ng. María Guadalupe Orozco Juárez",
         "Temas": "El ingeniero Industrial en el Entorno Laboral",
-        "descripcion": "",
+        "descripcion": "none",
+        "inicial": "M",
         "carrera": "IND",
         "img": "../../../assets/images/conferencistas/maria-guadalupe.png"
     }
