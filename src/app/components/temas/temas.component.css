@@ -1,17 +1,18 @@
 * {
     font-family: "Helvetica";
-    font-size: 1.3rem;
 }
 
 h1 {
     color: #fff;
     text-align: center;
+
 }
 
 h2 {
     color: #fff;
     font-weight: bold;
     text-align: center;
+    font-size: 20px;
 }
 
 p {
@@ -20,14 +21,14 @@ p {
 }
 
 .fondo {
-    background-color: #41b4e5;
-    padding: 50px;
+    background-color: #41B4E5;
+    padding: 100px;
     align-items: center;
     justify-content: center;
 }
 
 .badge-icono {
     background-color: #fff;
-    color: #41b4e5;
+    color: #41B4E5;
     border-radius: 20%;
 }
