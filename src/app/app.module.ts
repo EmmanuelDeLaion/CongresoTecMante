@@ -19,6 +19,9 @@ import { TemasComponent } from './components/temas/temas.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { VideoComponent } from './components/video/video.component';
 import { ObjetivoComponent } from './components/objetivo/objetivo.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ServicesConfig } from './config/services.config';
+
 
 
 
@@ -43,9 +46,11 @@ import { ObjetivoComponent } from './components/objetivo/objetivo.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [ ServicesConfig ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,7 +1,7 @@
 [
     {
         "nombre": "Angel Eduardo Catedral Gonzalez, Raul Alberto Hernandez Arguelles",
-        "Temas": "PRINCIPIOS SOLID",
+        "Temas": "Login y Registro con HTML, CSS, JS, NodeJS y MySQL",
         "descripcion": "none",
         "inicial": "A-R",
         "carrera": "IQ",
@@ -25,7 +25,7 @@
     },
     {
         "nombre": "Jose Armando Tovar Sanchez, Luis Antonio Estrada Villegas",
-        "Temas": "Como aprender react de 0 a heroe en 1 dia",
+        "Temas": "Principios de React Native",
         "descripcion": "none",
         "inicial": "J-L",
         "carrera": "IQ",

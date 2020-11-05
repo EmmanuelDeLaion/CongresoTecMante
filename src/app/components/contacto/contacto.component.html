@@ -11,24 +11,25 @@
             <div class="col-lg-3 col-md-2 d-none d-lg-block d-md-block d-sm-none d-xs-none"></div>
             <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
                 <div data-aos="fade-up">
-                    <h6>Si tienes duas o comentarios ¡Contactanos!</h6>
-                    <form>
+                    <h6>Si tienes dudas o comentarios ¡Contáctanos!</h6>
+
+                    <form [formGroup] = "formContacto">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            <input formControlName = "nombre" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                                 placeholder="Nombre">
                         </div>
     
                         <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            <input formControlName="correo" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                                 placeholder="Correo">
                         </div>
     
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Mensaje" id="textareaMensaje" rows="4"></textarea>
+                            <textarea formControlName="mensaje" class="form-control" placeholder="Mensaje" id="textareaMensaje" rows="4"></textarea>
                         </div>
     
                         <div class="row justify-content-center">
-                            <button type="submit" class="btn btn-enviar">Enviar <i
+                            <button type="submit" class="btn btn-enviar" (click)="enviarDudas()" >Enviar <i
                                     class="fas fa-arrow-circle-right"></i></button>
                         </div>
                     </form>
