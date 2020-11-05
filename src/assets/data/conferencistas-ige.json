@@ -21,7 +21,7 @@
         "inicial": "J",
         "Temas": "strategia de Marketing Digital como generador de valor para el cliente",
         "carrera": "IGE",
-        "img": "none"
+        "img": "../../../assets/images/conferencistas/coral.png"
     },
     {
         "nombre": "Alejandro Trujillo Jiménez",
@@ -29,7 +29,7 @@
         "inicial": "A",
         "Temas": "Alta patronal en SUA Empresarial, Cálculo de cuotas obrero - patronal en SUA Empresarial",
         "carrera": "IGE",
-        "img": "none"
+        "img": "../../../assets/images/conferencistas/trujillo.jpg"
     },
     {
         "nombre": "Daniel Eduardo Paz Pérez",
@@ -37,7 +37,7 @@
         "inicial": "D",
         "Temas": "Nóminas, Sueldos y salarios",
         "carrera": "IGE",
-        "img": "none"
+        "img": "../../../assets/images/conferencistas/paz-perez.jpg"
     },
     {
         "nombre": "Mónica Alejandra Hernández Garza",
@@ -45,7 +45,7 @@
         "inicial": "M",
         "Temas": "Habilidades Sociales para truinfar",
         "carrera": "IGE",
-        "img": "none"
+        "img": "../../../assets/images/conferencistas/monica.jpg"
     },
     {
         "nombre": "Sindy Sinai Leal Lara",
@@ -53,7 +53,7 @@
         "inicial": "S",
         "Temas": "Análisis y solución de problemas",
         "carrera": "IGE",
-        "img": "none"
+        "img": "../../../assets/images/conferencistas/sindy.jpg"
     },
     {
         "nombre": "Gabriel Manasénes Torres Martínez",
