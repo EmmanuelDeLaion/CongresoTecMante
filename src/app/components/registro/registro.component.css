@@ -92,7 +92,6 @@ p{
 }
 
 span{
-    background-color: #41B4E5;
     color: #fff;
-    border-radius: 10px;
+    font-weight: bold;
 }
