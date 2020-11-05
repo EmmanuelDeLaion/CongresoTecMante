@@ -23,7 +23,8 @@
 }
 
 .conferencistas{
-    padding: 50px;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 
@@ -49,4 +50,8 @@ h2{
     width:200px;
     top: 20px;
     margin:0 auto;
+}
+
+p, h5{
+    text-align: center;
 }

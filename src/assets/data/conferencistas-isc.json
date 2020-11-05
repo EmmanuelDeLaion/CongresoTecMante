@@ -16,12 +16,12 @@
         "img": "../../../assets/images/conferencistas/miguel-joaquin.jpeg"
     },
     {
-        "nombre": "Marco Antonio Nava Hernandez",
-        "Temas": "Unity desde cero",
+        "nombre": "Jesus Emmanuel De León Lerma, Juan Carlos Lopez Gonzalez",
+        "Temas": "Herramientas para el diseño de interfaces",
         "descripcion": "none",
-        "inicial": "M",
-        "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/marco-nava.jpeg"
+        "inicial": "J",
+        "carrera": "IQ",
+        "img": "../../../assets/images/conferencistas/emmanuel-juan.png"
     },
     {
         "nombre": "Jose Armando Tovar Sanchez, Luis Antonio Estrada Villegas",
@@ -29,8 +29,17 @@
         "descripcion": "none",
         "inicial": "J-L",
         "carrera": "IQ",
-        "img": "none"
+        "img": "../../../assets/images/conferencistas/armando-estrada.png"
     },
+    {
+        "nombre": "Marco Antonio Nava Hernandez",
+        "Temas": "Unity desde cero",
+        "descripcion": "none",
+        "inicial": "M",
+        "carrera": "ISC",
+        "img": "../../../assets/images/conferencistas/marco-nava.jpeg"
+    },
+    
     {
         "nombre": "José de Jesús Charles Vázquez",
         "Temas": "Introducción al modelado 3D para videojuegos",
