@@ -50,7 +50,7 @@ export class RegistroComponent implements OnInit {
       console.log(res);
       swal.fire({
         icon: 'success',
-        title: 'REGISTRADO CON ÉXITO'
+        title: 'Se ha registrado correctamente'
       });
     this.formRegistro.reset();
     },
@@ -58,7 +58,7 @@ export class RegistroComponent implements OnInit {
       console.log(err);
       swal.fire({
         icon: 'error',
-        title: 'VERIFIQUE LOS CAMPOS'
+        title: 'Verifique los campos'
       });
     }
     ); 

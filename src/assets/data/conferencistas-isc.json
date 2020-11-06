@@ -1,38 +1,38 @@
 [
     {
-        "nombre": "Angel Eduardo Catedral Gonzalez, Raul Alberto Hernandez Arguelles",
+        "nombre": "Ángel Eduardo Catedral González, Raúl Alberto Hernández Argüelles",
         "Temas": "Login y Registro con HTML, CSS, JS, NodeJS y MySQL",
         "descripcion": "none",
         "inicial": "A-R",
-        "carrera": "IQ",
+        "carrera": "ISC",
         "img": "../../../assets/images/conferencistas/angel-raul.png"
     },
     {
-        "nombre": "Miguel Edgardo Santiago Hernandez, Gerardo Joaquin Martinez Hernandez",
-        "Temas": "FULLSTACK APP CON FLUTTER-NODEJS-EXPRESS-SOCKET.IO",
+        "nombre": "Miguel Edgardo Santiago Hernández, Gerardo Joaquín Martínez Hernández",
+        "Temas": "Fullstack App Con Flutter-Nodejs-Express-Socket.Io",
         "descripcion": "none",
         "inicial": "M-J",
-        "carrera": "IQ",
+        "carrera": "ISC",
         "img": "../../../assets/images/conferencistas/miguel-joaquin.jpeg"
     },
     {
-        "nombre": "Jesus Emmanuel De León Lerma, Juan Carlos Lopez Gonzalez",
+        "nombre": "Jesús Emmanuel De León Lerma, Juan Carlos López González",
         "Temas": "Herramientas para el diseño de interfaces",
         "descripcion": "none",
         "inicial": "J",
-        "carrera": "IQ",
+        "carrera": "ISC",
         "img": "../../../assets/images/conferencistas/emmanuel-juan.png"
     },
     {
-        "nombre": "Jose Armando Tovar Sanchez, Luis Antonio Estrada Villegas",
+        "nombre": "José Armando Tovar Sánchez, Luis Antonio Estrada Villegas",
         "Temas": "Principios de React Native",
         "descripcion": "none",
         "inicial": "J-L",
-        "carrera": "IQ",
+        "carrera": "ISC",
         "img": "../../../assets/images/conferencistas/armando-estrada.png"
     },
     {
-        "nombre": "Marco Antonio Nava Hernandez",
+        "nombre": "Marco Antonio Nava Hernández",
         "Temas": "Unity desde cero",
         "descripcion": "none",
         "inicial": "M",
@@ -41,11 +41,11 @@
     },
     
     {
-        "nombre": "José de Jesús Charles Vázquez",
+        "nombre": "José de Jesús Vázquez Charles ",
         "Temas": "Introducción al modelado 3D para videojuegos",
         "descripcion": "none",
         "inicial": "J",
-        "carrera": "IQ",
+        "carrera": "ISC",
         "img": "../../../assets/images/conferencistas/charles.jpeg"
     }
 ]

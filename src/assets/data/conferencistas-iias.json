@@ -1,15 +1,15 @@
 [
     {
-        "nombre": "DR. EDGAR PÉREZ ARRIAGA",
-        "Temas": "LA GESTION AMBIENTAL DE LOS RESIDUOS EN LAS ACTIVIDADES AGROPECUARIOS",
+        "nombre": "Dr. Edgar Pérez Arriaga",
+        "Temas": "La gestión ambiental de los residuos en las actividades agropecuarias",
         "descripcion": "none",
         "inicial": "E",
         "carrera": "IIAS",
         "img": "none"
     },
     {
-        "nombre": "JORGE LUIS VEGA CHÁVEZ",
-        "Temas": "BIOLOGÍA DE TAMARIXIA TRIOZAE PARASITOIDE DE BACTERICERA COCKERELLI",
+        "nombre": "Jorge Luis Vega Chávez",
+        "Temas": "Biología de tamarixia triozae parasitoide de bactericera cockerelli",
         "descripcion": "none",
         "inicial": "J",
         "carrera": "IIAS",
@@ -25,15 +25,15 @@
     },
     {
         "nombre": "M.C. María Guadalupe Cepeda Puente",
-        "Temas": "Experiencias en Campos Experimentales de Maíz Híbrido y GMO's",
+        "Temas": "Experiencias en Campos Experimentales de Maíz Híbrido y GMO's. Aptitudes y Competencias Corporativas",
         "descripcion": "none",
         "inicial": "M",
         "carrera": "IIAS",
         "img": "none"
     },
     {
-        "nombre": "DR. RODOLFO GARZA FLORES ",
-        "Temas": "TRANSVERSALIDAD AMBIENTAL DE LA AGENDA 2030 PARA EL DESARROLLO SUSTENTABLE",
+        "nombre": "Dr. Rodolfo Garza Flores ",
+        "Temas": "Transversalidad ambiental de la agenda 2030 para el desarrollo sustentable",
         "descripcion": "none",
         "inicial": "R",
         "carrera": "IIAS",
@@ -41,18 +41,11 @@
     },
     {
         "nombre": "Dr. Jorge Ariel Torres Acosta",
-        "Temas": "Chile Piquín: aspectos ecológicos hacia su manejo integral, diversidad fitoquímica y productos derivados",
+        "Temas": "Chile Piquín: Aspectos ecológicos hacia su manejo integral, diversidad fitoquímica y productos derivados",
         "descripcion": "none",
         "inicial": "J",
         "carrera": "IIAS",
         "img": "none"
-    },
-    {
-        "nombre": "M.C. María Guadalupe Cepeda Puente",
-        "Temas": "Aptitudes y Competencias Corporativas",
-        "descripcion": "none",
-        "inicial": "M",
-        "carrera": "IIAS",
-        "img": "none"
     }
+ 
 ]

@@ -33,7 +33,7 @@ export class ContactoComponent implements OnInit {
         console.log(res);
         swal.fire({
           icon: 'success',
-          title: 'SE A ENVIADO TU DUDA CON ÉXITO'
+          title: 'Tu mensaje se ha enviado correctamente'
         });
         this.formContacto.reset();
       },
@@ -41,9 +41,12 @@ export class ContactoComponent implements OnInit {
         console.log(err);
         swal.fire({
           icon: 'error',
-          title: 'VERIFIQUE LOS CAMPOS'
+          title: 'Verifique los campos'
         });
       });
   }
   
 }
+
+
+// Validar campos
