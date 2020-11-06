@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -17,10 +23,4 @@ body::-webkit-scrollbar-thumb{
 }
 
 
-@font-face {
-    font-family: 'Helvetica';
-    src: url('/../assets/fonts/Helvetica.ttf');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
+ 

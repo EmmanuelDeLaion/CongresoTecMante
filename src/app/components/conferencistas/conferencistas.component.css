@@ -1,6 +1,4 @@
-* {
-    font-family: url(/../assets/fonts/Helvetica.ttf);
-}
+
 .card-img-top {
     border-radius: 100em;
     width: 150px;
@@ -36,7 +34,7 @@
 
 h2{
     color: rgb(70, 70, 70);
-    font-weight: lighter;
+    font-weight: 400;
 }
 .carousel-control-next-icon {
     background-color: #41B4E5;
@@ -54,4 +52,18 @@ h2{
 
 p, h5{
     text-align: center;
+}
+
+
+
+img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.5s;
+}
+
+img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
