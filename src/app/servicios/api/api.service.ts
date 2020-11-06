@@ -23,8 +23,8 @@ export class ApiService {
     return this._http.post<contactoI>(this.servicesConfig.APP_ENDPOINT + 'api/contacto', body);
   }
 
-  correo( form:any ):Observable<any> {
-    return this._http.post<correoI>(this.servicesConfig.APP_ENDPOINT + 'api/correo', form);
+  correo( body:any ):Observable<any> {
+    return this._http.post<correoI>(this.servicesConfig.APP_ENDPOINT + 'api/correo', body);
   }
 
 }

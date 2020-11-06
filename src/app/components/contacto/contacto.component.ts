@@ -17,7 +17,7 @@ export class ContactoComponent implements OnInit {
   constructor( private _api:ApiService, private formBuilder: FormBuilder ) {
     this.formContacto = this.formBuilder.group({
       nombre : ['', [Validators.required]],
-      correo : ['', [Validators.required]],
+      correo : ['', [Validators.email]],
       mensaje: ['', [Validators.required]]
     });
    }
@@ -27,25 +27,28 @@ export class ContactoComponent implements OnInit {
   }
 
   enviarDudas () {
-    
-      console.log(this.formContacto.value);
-      this._api.contacto(this.formContacto.value).subscribe(res => {
-        console.log(res);
-        swal.fire({
-          icon: 'success',
-          title: 'Tu mensaje se ha enviado correctamente'
-        });
-        this.formContacto.reset();
-      },
-      err=> {
-        console.log(err);
-        swal.fire({
-          icon: 'error',
-          title: 'Verifique los campos'
-        });
-      });
-  }
-  
+    console.log(this.formContacto.value);
+   this._api.contacto(this.formContacto.value).subscribe(res=> {
+     console.log(res);
+   },
+   err=> {
+     console.log(err);
+   }
+   ); 
+
+   if(this.formContacto.value.nombre != "" && this.formContacto.value.correo != "" && this.formContacto.value.mensaje != ""){
+    swal.fire({
+      icon: 'success',
+      title: 'Tu duda a sido enviado con exito'
+    });
+   }
+   else{
+    swal.fire({
+      icon: 'error',
+      title: 'Verifique los campos'
+    });
+   }
+ }
 }
 
 
