@@ -8,15 +8,15 @@
     },
     {
         "nombre": "Miguel Edgardo Santiago Hernández",
-        "Temas": "Fullstack App Con Flutter-Nodejs-Express-Socket.Io",
+        "Temas": "Principios de Angular",
         "descripcion": "none",
         "inicial": "M-J",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/santiago.png"
+        "img": "../../../assets/images/conferencistas/santiago.jpeg"
     },
     {
         "nombre": "Jesús Emmanuel De León Lerma, Juan Carlos López González",
-        "Temas": "Herramientas para el diseño de interfaces",
+        "Temas": "Herramientas para el diseño de interfaces UI/UX",
         "descripcion": "none",
         "inicial": "J",
         "carrera": "ISC",
@@ -59,15 +59,15 @@
 
     {
         "nombre": "Diego José Salatino",
-        "Temas": "Games",
-        "descripcion": "none",
+        "Temas": "Conferencia Games",
+        "descripcion": "Game producer - Globant S.A.",
         "inicial": "D",
         "carrera": "ISC",
         "img": "none"
     },
     {
         "nombre": "Gerardo Joaquin Martínez Hernández",
-        "Temas": "Principios de Angular",
+        "Temas": "Fullstack App Con Flutter-Nodejs-Express-Socket.Io",
         "descripcion": "none",
         "inicial": "J",
         "carrera": "ISC",

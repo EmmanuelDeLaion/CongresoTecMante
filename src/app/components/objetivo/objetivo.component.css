@@ -1,12 +1,8 @@
-*{
-    font-family: "Helvetica";
-}
+ 
 .objetivo{
     background-image: url(/../assets/images/portada-objetivo.png);
-    width: 100%;
-    height: 450px;
     background-size: cover;
-    padding: 30px;
+    padding: 70px;
 }
 
 h2{
@@ -19,4 +15,13 @@ h2{
 p{
     color: #fff;
     font-weight: normal;
+    text-align: center;
+}
+.imagen-ilustracion{
+    width: 200px;
+    height: 100px;
+}
+
+span{
+    color: #41B4E5;
 }

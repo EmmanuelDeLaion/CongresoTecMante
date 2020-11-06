@@ -1,126 +1,156 @@
 <div class="conferencistas">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2> <span class="badge-conferencista"> <i class="fas fa-hand-holding-heart"></i> </span> Conferencistas</h2>
-            </div>
-    
-            <div class="col-12">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-controls">
-                        <a class="left carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <i style="color: #41B4E5; font-size:25px" class="fas fa-arrow-circle-left" aria-hidden="true"></i>
-                        </a>
-                        <a class="right carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <i style="color: #41B4E5; font-size:25px" class="fas fa-arrow-circle-right" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row" style="background-color: white;">
-                                <div class="col-12">
-                                    <h2 class="text-center">ISC</h2>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-3"
-                                    *ngFor="let conferencista of conferencistasISC">
-                                    <div class="card d-flex align-items-center" style="width: 13rem;">
-                                        <img *ngIf="conferencista.img!=='none'" class="card-img-top" src="{{conferencista.img}}" alt="Card image cap">
-                                        <div *ngIf="conferencista.img==='none'" class="avatar-circle d-flex align-items-center justify-content-center">
-                                            <h1 style="color: white;">{{conferencista.inicial}}</h1>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                            <p class="card-text">{{conferencista.Temas}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row" style="background-color: white;">
-                                <div class="col-12">
-                                    <h2 class="text-center">IGE</h2>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-3"
-                                    *ngFor="let conferencista of conferensistasIGE">
-                                    <div class="card d-flex align-items-center" style="width: 13rem;">
-                                        <img *ngIf="conferencista.img!=='none'" class="card-img-top" src="{{conferencista.img}}" alt="Card image cap">
-                                        <div *ngIf="conferencista.img==='none'" class="avatar-circle d-flex align-items-center justify-content-center">
-                                            <h1 style="color: white;">{{conferencista.inicial}}</h1>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                            <p class="card-text">{{conferencista.Temas}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row" style="background-color: white;">
-                                <div class="col-12">
-                                    <h2 class="text-center">IND</h2>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-3"
-                                    *ngFor="let conferencista of conferencistasIND">
-                                    <div class="card d-flex align-items-center" style="width: 15rem;">
-                                        <img *ngIf="conferencista.img!=='none'" class="card-img-top" src="{{conferencista.img}}" alt="Card image cap">
-                                        <div *ngIf="conferencista.img==='none'" class="avatar-circle d-flex align-items-center justify-content-center">
-                                            <h1 style="color: white;">{{conferencista.inicial}}</h1>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                            <p class="card-text">{{conferencista.Temas}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row" style="background-color: white;">
-                                <div class="col-12">
-                                    <h2 class="text-center">IIAS</h2>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-3"
-                                    *ngFor="let conferencista of conferencistasIIAS">
-                                    <div class="card d-flex align-items-center" style="width: 15rem;">
-                                        <img *ngIf="conferencista.img!=='none'" class="card-img-top" src="{{conferencista.img}}" alt="Card image cap">
-                                        <div *ngIf="conferencista.img==='none'" class="avatar-circle d-flex align-items-center justify-content-center">
-                                            <h1 style="color: white;">{{conferencista.inicial}}</h1>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                            <p class="card-text">{{conferencista.Temas}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row" style="background-color: white;">
-                                <div class="col-12">
-                                    <h2 class="text-center">IQ</h2>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-3"
-                                    *ngFor="let conferencista of conferencistasIQ">
-                                    <div class="card d-flex align-items-center" style="width: 15rem;">
-                                        <img *ngIf="conferencista.img!=='none'" class="card-img-top" src="{{conferencista.img}}" alt="Card image cap">
-                                        <div *ngIf="conferencista.img==='none'" class="avatar-circle d-flex align-items-center justify-content-center">
-                                            <h1 style="color: white;">{{conferencista.inicial}}</h1>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                            <p class="card-text">{{conferencista.Temas}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
+        <div class="col-12">
+            <h2> <span class="badge-conferencista"> <i class="fas fa-hand-holding-heart"></i> </span> Conferencistas
+            </h2>
         </div>
+
+        <div class="col-12">
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <!-- Controles -->
+                <div class="carousel-controls">
+                    <a class="left carousel-control-prev" href="#carouselExampleControls" role="button"
+                        data-slide="prev">
+                        <i style="color: #41B4E5; font-size:25px" class="fas fa-arrow-circle-left"
+                            aria-hidden="true"></i>
+                    </a>
+                    <a class="right carousel-control-next" href="#carouselExampleControls" role="button"
+                        data-slide="next">
+                        <i style="color: #41B4E5; font-size:25px" class="fas fa-arrow-circle-right"
+                            aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="carousel-inner">
+                    <!-- carusel sistemas -->
+                    <div class="carousel-item active">
+                        <div class="col-12">
+                            <h2 class="text-center">ISC</h2>
+                        </div>
+                        <div class="row" style="background-color: white;">
+
+                            <div class="col-6 col-lg-3 col-md-4 col-sm-6 mt-3"
+                                *ngFor="let conferencista of conferencistasISC">
+                                <div class="card d-flex align-items-center" style="width: 13rem;">
+                                    <img *ngIf="conferencista.img!=='none'" class="card-img-top"
+                                        src="{{conferencista.img}}" alt="Card image cap">
+                                    <div *ngIf="conferencista.img==='none'"
+                                        class="avatar-circle d-flex align-items-center justify-content-center">
+                                        <h1 style="color: white;">{{conferencista.inicial}}</h1>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{conferencista.nombre}}</h5>
+                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Carusel ige -->
+                    <div class="carousel-item">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-12">
+                                <h2 class="text-center">IGE</h2>
+                            </div>
+                            <div class="col-6 col-lg-3 col-md-4 col-sm-6 mt-3"
+                                *ngFor="let conferencista of conferensistasIGE">
+                                <div class="card d-flex align-items-center" style="width: 13rem;">
+                                    <img *ngIf="conferencista.img!=='none'" class="card-img-top"
+                                        src="{{conferencista.img}}" alt="Card image cap">
+                                    <div *ngIf="conferencista.img==='none'"
+                                        class="avatar-circle d-flex align-items-center justify-content-center">
+                                        <h1 style="color: white;">{{conferencista.inicial}}</h1>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{conferencista.nombre}}</h5>
+                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carusel industrial -->
+                    <div class="carousel-item">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-12">
+                                <h2 class="text-center">IND</h2>
+                            </div>
+                            <div class="col-6 col-lg-3 col-md-4 col-sm-6 mt-3"
+                                *ngFor="let conferencista of conferencistasIND">
+                                <div class="card d-flex align-items-center" style="width: 15rem;">
+                                    <img *ngIf="conferencista.img!=='none'" class="card-img-top"
+                                        src="{{conferencista.img}}" alt="Card image cap">
+                                    <div *ngIf="conferencista.img==='none'"
+                                        class="avatar-circle d-flex align-items-center justify-content-center">
+                                        <h1 style="color: white;">{{conferencista.inicial}}</h1>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{conferencista.nombre}}</h5>
+                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carusel IIAS -->
+                    <div class="carousel-item">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-12">
+                                <h2 class="text-center">IIAS</h2>
+                            </div>
+                            <div class="col-6 col-lg-3 col-md-4 col-sm-6 mt-3"
+                                *ngFor="let conferencista of conferencistasIIAS">
+                                <div class="card d-flex align-items-center" style="width: 15rem;">
+                                    <img *ngIf="conferencista.img!=='none'" class="card-img-top"
+                                        src="{{conferencista.img}}" alt="Card image cap">
+                                    <div *ngIf="conferencista.img==='none'"
+                                        class="avatar-circle d-flex align-items-center justify-content-center">
+                                        <h1 style="color: white;">{{conferencista.inicial}}</h1>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{conferencista.nombre}}</h5>
+                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carusel quimica -->
+                    <div class="carousel-item">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-12">
+                                <h2 class="text-center">IQ</h2>
+                            </div>
+                            <div class="col-6 col-lg-3 col-md-4 col-sm-6 mt-3"
+                                *ngFor="let conferencista of conferencistasIQ">
+                                <div class="card d-flex align-items-center" style="width: 15rem;">
+                                    <img *ngIf="conferencista.img!=='none'" class="card-img-top"
+                                        src="{{conferencista.img}}" alt="Card image cap">
+                                    <div *ngIf="conferencista.img==='none'"
+                                        class="avatar-circle d-flex align-items-center justify-content-center">
+                                        <h1 style="color: white;">{{conferencista.inicial}}</h1>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{conferencista.nombre}}</h5>
+                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- carusel -->
+            </div>
+        </div>
+
     </div>
 </div>
-

@@ -1,12 +1,4 @@
-@font-face {
-    font-family: Helvetica;
-    src: url('../../../assets/fonts/Helvetica.ttf');
-}
-
-* {
-    font-family: 'Helvetica';
-}
-
+ 
 .card {
     border-radius: 20px;
     background-color: #97C93C;
@@ -38,7 +30,7 @@ a:hover {
 
 h2{
     color: rgb(70, 70, 70);
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 
