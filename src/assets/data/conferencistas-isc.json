@@ -1,5 +1,4 @@
-[
-    {
+[{
         "nombre": "Ángel Eduardo Catedral González, Raúl Alberto Hernández Argüelles",
         "Temas": "Login y Registro con HTML, CSS, JS, NodeJS y MySQL",
         "descripcion": "none",
@@ -8,12 +7,12 @@
         "img": "../../../assets/images/conferencistas/angel-raul.png"
     },
     {
-        "nombre": "Miguel Edgardo Santiago Hernández, Gerardo Joaquín Martínez Hernández",
+        "nombre": "Miguel Edgardo Santiago Hernández",
         "Temas": "Fullstack App Con Flutter-Nodejs-Express-Socket.Io",
         "descripcion": "none",
         "inicial": "M-J",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/miguel-joaquin.jpeg"
+        "img": "../../../assets/images/conferencistas/santiago.png"
     },
     {
         "nombre": "Jesús Emmanuel De León Lerma, Juan Carlos López González",
@@ -24,12 +23,12 @@
         "img": "../../../assets/images/conferencistas/emmanuel-juan.png"
     },
     {
-        "nombre": "José Armando Tovar Sánchez, Luis Antonio Estrada Villegas",
+        "nombre": "Luis Antonio Estrada Villegas",
         "Temas": "Principios de React Native",
         "descripcion": "none",
         "inicial": "J-L",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/armando-estrada.png"
+        "img": "../../../assets/images/conferencistas/estrada.png"
     },
     {
         "nombre": "Marco Antonio Nava Hernández",
@@ -39,7 +38,7 @@
         "carrera": "ISC",
         "img": "../../../assets/images/conferencistas/marco-nava.jpeg"
     },
-    
+
     {
         "nombre": "José de Jesús Vázquez Charles ",
         "Temas": "Introducción al modelado 3D para videojuegos",
@@ -47,5 +46,32 @@
         "inicial": "J",
         "carrera": "ISC",
         "img": "../../../assets/images/conferencistas/charles.jpeg"
+    },
+
+    {
+        "nombre": "José Armando Tovar Sánchez",
+        "Temas": "Principios de Laravel",
+        "descripcion": "none",
+        "inicial": "J",
+        "carrera": "ISC",
+        "img": "../../../assets/images/conferencistas/tovar.png"
+    },
+
+    {
+        "nombre": "Diego José Salatino",
+        "Temas": "Games",
+        "descripcion": "none",
+        "inicial": "D",
+        "carrera": "ISC",
+        "img": "none"
+    },
+    {
+        "nombre": "Gerardo Joaquin Martínez Hernández",
+        "Temas": "Principios de Angular",
+        "descripcion": "none",
+        "inicial": "J",
+        "carrera": "ISC",
+        "img": "../../../assets/images/conferencistas/joaquin.png"
     }
+
 ]
