@@ -24,7 +24,7 @@ export class RegistroComponent implements OnInit {
       sexo : ['', [Validators.required]],
       paisProcedencia : ['', [Validators.required]],
       estadoProcedencia : ['', [Validators.required]],
-      correo : ['', [Validators.required]],
+      correo : ['', [Validators.email]],
       carrera: [''],
       semestre: [''],
       institutoProcedencia: ['']
@@ -45,6 +45,8 @@ export class RegistroComponent implements OnInit {
   }
 
   registrar () {
+
+
      console.log(this.formRegistro.value);
     this._api.registroByForm(this.formRegistro.value).subscribe(res=> {
       console.log(res);
@@ -64,15 +66,17 @@ export class RegistroComponent implements OnInit {
     ); 
   }
 
-  /*enviarCorreo(){
+  enviarCorreo(){
     console.log(this.formRegistro.value);
-    console.log(this.formCorreo.value);
+    
+    var nombreCompleto = this.formRegistro.value.nombre;
+    var correo         = this.formRegistro.value.correo;
 
-    this._api.correo(this.formCorreo.value).subscribe(res=> {
+    this._api.correo(this.formRegistro.value).subscribe(res=> {
       console.log(res);
       swal.fire({
         icon: 'success',
-        title: 'REGISTRADO CON ÉXITO'
+        title: 'SE TE ENVIÓ LA INVITACIÓN A TU CORREO PROPORCIONADO'
       });
       this.formRegistro.reset();
     },
@@ -84,7 +88,7 @@ export class RegistroComponent implements OnInit {
       });
     }
     );
-  } */
+  } 
 
   
 
