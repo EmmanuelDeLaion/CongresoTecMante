@@ -41,14 +41,14 @@
     },
     {
         "nombre": "Dr. Mario Kanul Ku ",
-        "Temas": "Reconocimiento de Objetos 3D mediante tecnicas de curvatura en superficies e inteligencia artificial",
+        "Temas": "Reconocimiento de Objetos 3D mediante técnicas de curvatura en superficies e inteligencia artificial",
         "descripcion": "none",
         "inicial": "M",
         "carrera": "IND",
         "img": "../../../assets/images/conferencistas/mario-kanul.png"
     },
     {
-        "nombre": "Ing. Miguel Angel Zuñiga Martínez",
+        "nombre": "Ing. Miguel Ángel Zúñiga Martínez",
         "Temas": "Taller Autocad, Taller HACCCP",
         "descripcion": "none",
         "inicial": "M",
@@ -64,8 +64,8 @@
         "img": "none"
     },
     {
-        "nombre": " Ing. Odin Fernando Eufracio Vazquez",
-        "Temas": " Taller de  Redes Neuronales",
+        "nombre": " Ing. Odín Fernando Eufracio Vázquez",
+        "Temas": " Taller de Redes Neuronales",
         "descripcion": "none",
         "inicial": "O",
         "carrera": "IND",

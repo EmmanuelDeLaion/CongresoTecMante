@@ -16,10 +16,10 @@
         "img": "../../../assets/images/conferencistas/eva-idalid.jpeg"
     },
     {
-        "nombre": "Jose Antonio Coral Morante",
+        "nombre": "José Antonio Coral Morante",
         "descripcion": "Docente del Programa de Administración y Marketing",
         "inicial": "J",
-        "Temas": "strategia de Marketing Digital como generador de valor para el cliente",
+        "Temas": "Estrategia de Marketing Digital como generador de valor para el cliente",
         "carrera": "IGE",
         "img": "../../../assets/images/conferencistas/coral.png"
     },
@@ -48,7 +48,7 @@
         "img": "../../../assets/images/conferencistas/monica.jpg"
     },
     {
-        "nombre": "Sindy Sinai Leal Lara",
+        "nombre": "Sindy Sinaí Leal Lara",
         "descripcion": "...",
         "inicial": "S",
         "Temas": "Análisis y solución de problemas",
@@ -64,7 +64,7 @@
         "img": "../../../assets/images/conferencistas/gabriel-mansenes.png"
     },
     {
-        "nombre": "Leidi Margarita Torres Zamarron",
+        "nombre": "Leidi Margarita Torres Zamarrón",
         "descripcion": "...",
         "inicial": "L",
         "Temas": "Análisis y solución de problemas",
@@ -72,7 +72,7 @@
         "img": "../../../assets/images/conferencistas/leidi-margarita.png"
     },
     {
-        "nombre": "Joel Antonio Martinez Hernández",
+        "nombre": "Joel Antonio Martínez Hernández",
         "descripcion": "...",
         "inicial": "J",
         "Temas": "Análisis y solución de problemas",
