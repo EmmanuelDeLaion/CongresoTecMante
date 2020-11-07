@@ -1,6 +1,4 @@
- 
-  
-.texto {
+ .texto {
     text-align: center;
 }
 
@@ -13,14 +11,7 @@
     background-color: white;
     padding: 50px;
     border-radius: 1em;
-    width: 100%;
-    -webkit-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.75);
-}
-
-.row {
-    width: 100%;
+    box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.50);
 }
 
 .text {
@@ -93,3 +84,4 @@ span{
     color: #fff;
     font-weight: bold;
 }
+ 

@@ -76,7 +76,8 @@ export class RegistroComponent implements OnInit {
       console.log(res);
       swal.fire({
         icon: 'success',
-        title: 'SE TE ENVIÓ LA INVITACIÓN A TU CORREO PROPORCIONADO'
+        title: 'Confirmación enviada',
+        text: 'Por favor ingrese al correo proporcionado y confirme su registro'
       });
       this.formRegistro.reset();
     },
@@ -84,7 +85,7 @@ export class RegistroComponent implements OnInit {
       console.log(err);
       swal.fire({
         icon: 'error',
-        title: 'VERIFIQUE LOS CAMPOS'
+        title: 'Verifique los campos'
       });
     }
     );
