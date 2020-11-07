@@ -1,14 +1,14 @@
 
 .card-img-top {
     border-radius: 100em;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 
 .avatar-circle {
     background-color: #41B4E5;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 100em;
 }
 .card {
@@ -16,10 +16,7 @@
     font-size: 15px;
 }
 
-.img-header {
-    width: 100px;
-}
-
+ 
 .conferencistas{
     margin-top: 5em;
     margin-bottom: 5em;
@@ -66,4 +63,21 @@ img:hover {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+    cursor: pointer;
 }
+
+ 
+.avatar-circle {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.5s;
+}
+
+.avatar-circle:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+ 

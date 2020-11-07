@@ -17,3 +17,16 @@ h2 {
     width: 200px;
     height: 100px;
 }
+
+img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.5s;
+}
+
+img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
