@@ -21,7 +21,7 @@ import { VideoComponent } from './components/video/video.component';
 import { ObjetivoComponent } from './components/objetivo/objetivo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServicesConfig } from './config/services.config';
-
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 
 
@@ -48,7 +48,8 @@ import { ServicesConfig } from './config/services.config';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    SweetAlert2Module.forRoot()
   ],
   providers: [ ServicesConfig ],
   bootstrap: [AppComponent]

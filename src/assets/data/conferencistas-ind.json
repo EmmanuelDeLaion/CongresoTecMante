@@ -1,26 +1,35 @@
 [
     {
         "nombre": "Ing. Martha Elvira de la Paz",
+        "tipo": "Taller",
         "Temas": "Taller de Desarrollo Sustentable",
         "descripcion": "none",
         "inicial": "M",
         "carrera": "IND",
+        "dia":"16 de Noviembre ",
+        "hora":"9:00 a 13:00",
         "img": "../../../assets/images/conferencistas/marta-elvira.png"
     },
     {
         "nombre": "Ing. Juan Antonio Fuentes Aguilar",
+        "tipo": "Conferencia",
         "Temas": "Conferencia 8 D´S",
         "descripcion": "none",
         "inicial": "J",
         "carrera": "IND",
+        "dia":"16 de Noviembre ",
+        "hora":"10:00 a 11:00",
         "img": "../../../assets/images/conferencistas/juan-antonio.png"
     },
     {
         "nombre": "M.S.P. Lizzeth Quevedo Nava",
-        "Temas": "Taller de Elaboración VSM, Balance Score",
-        "descripcion": "none",
+        "tipo": "Taller y Conferencia",
+        "Temas": "Elaboración VSM, Balance Score",
+        "descripcion": "Docente del Instituto Tecnológico Superior de El Mante.",
         "inicial": "L",
         "carrera": "IND",
+        "dia":"16 y 17 de Noviembre ",
+        "hora":"11:00 a 13:00 y 10:00 a 11:00",
         "img": "../../../assets/images/conferencistas/lizzeth-quevedo.jpg"
     },
     {
@@ -29,54 +38,86 @@
         "descripcion": "none",
         "inicial": "F",
         "carrera": "IND",
+        "dia":"16 de Noviembre",
+        "hora":"",
         "img": "../../../assets/images/conferencistas/fernando-chi.png"
     },
     {
         "nombre": "Ing. David Coronel Trejo",
+        "tipo": "Conferencia",
         "Temas": "Producción en la Industria Automotriz",
         "descripcion": "none",
         "inicial": "D",
         "carrera": "IND",
+        "dia":"16 de Noviembre",
+        "hora":"12:00 a 13:00",
         "img": "../../../assets/images/conferencistas/david-coronel.png"
     },
     {
         "nombre": "Dr. Mario Kanul Ku ",
+        "tipo": "Conferencia",
         "Temas": "Reconocimiento de Objetos 3D mediante técnicas de curvatura en superficies e inteligencia artificial",
         "descripcion": "none",
         "inicial": "M",
         "carrera": "IND",
+        "dia":"16 de Noviembre",
+        "hora":"12:00 a 13:00",
         "img": "../../../assets/images/conferencistas/mario-kanul.png"
     },
     {
         "nombre": "Ing. Miguel Ángel Zúñiga Martínez",
+        "tipo": "Taller",
         "Temas": "Taller Autocad, Taller HACCCP",
-        "descripcion": "none",
+        "descripcion": " docente del Instituto Tecnológico Superior de El Mante",
         "inicial": "M",
         "carrera": "IND",
+        "dia":"17 de Noviembre",
+        "hora":"10:00 a 13:00",
         "img": "../../../assets/images/conferencistas/miguel-angel.png"
     },
     {
         "nombre": "Ing. Carlos Meneces",
+        "tipo": "Conferencia",
         "Temas": "Industria 4.0",
         "descripcion": "none",
         "inicial": "C",
         "carrera": "IND",
+        "dia":"17 de Noviembre",
+        "hora":"13:00 a 14:00",
         "img": "none"
     },
     {
         "nombre": " Ing. Odín Fernando Eufracio Vázquez",
-        "Temas": " Taller de Redes Neuronales",
+        "tipo": "Taller",
+        "Temas": " Redes Neuronales",
         "descripcion": "none",
         "inicial": "O",
         "carrera": "IND",
+        "dia":"17 de Noviembre",
+        "hora":"11:00 a 13:00",
         "img": "../../../assets/images/conferencistas/fernando-efracio.png"
     },
     {
         "nombre": "Ing. María Guadalupe Orozco Juárez",
+        "tipo": "Conferencia",
         "Temas": "El ingeniero Industrial en el Entorno Laboral",
         "descripcion": "none",
         "inicial": "M",
         "carrera": "IND",
+        "dia":"17 de Noviembre",
+        "hora":"10:00 a 12:00",
         "img": "../../../assets/images/conferencistas/maria-guadalupe.png"
+    }
+    ,
+    {
+        "nombre": "...",
+        "tipo": "Taller",
+        "Temas": "Taller de Seguridad Industrial NOM 017",
+        "descripcion": "none",
+        "inicial": ".",
+        "carrera": "IND",
+        "dia":"17 de Noviembre",
+        "hora":"10:00 a 13:00",
+        "img": "none"
     }
 ]

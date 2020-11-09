@@ -1,34 +1,57 @@
 [
     {
+        "nombre": "Dr. Ignacio González",
+        "tipo": "Conferencia",
+        "Temas": "La Química nos une",
+        "descripcion": "presidente de la Sociedad Química de México, A.C. Hora: 1",
+        "inicial": "I",
+        "carrera": "IQ",
+        "dia":"16 de Noviembre",
+        "hora":"10:00 a 11:00",
+        "img": "none"
+    },
+    {
         "nombre": "Ing. Damián Hernández",
+        "tipo": "Conferencia",
         "Temas": "Conversión catalítica de emisiones contaminantes de motores Diesel: Una aplicación de la Ingeniería Química",
         "descripcion": "none",
         "inicial": "D",
         "carrera": "IQ",
+        "dia":"16 de Noviembre",
+        "hora":"11:20 a 12:20",
         "img": "none"
     },
     {
         "nombre": "Dr. C. Jonathan Pérez Meseguer",
+        "tipo": "Conferencia",
         "Temas": "Obtención de aceites esenciales",
         "descripcion": "none",
         "inicial": "J",
         "carrera": "IQ",
+        "dia":"16 de Noviembre",
+        "hora":"13:00 a 14:00",
         "img": "none"
     },
     {
         "nombre": "M.C. Elida Lee Bazaldua",
-        "Temas": "Introducción a la Técnica PCR",
-        "descripcion": "none",
+        "tipo": "Conferencia",
+        "Temas": "Biotecnología presente y futuro",
+        "descripcion": " Catedrático Universidad Autónoma de Monterrey",
         "inicial": "E",
         "carrera": "IQ",
+        "dia":"17 de Noviembre",
+        "hora":"9:00 a 10:00",
         "img": "none"
     },
     {
         "nombre": "MC Belém Lorelay López González ",
+        "tipo": "Conferencia",
         "Temas": "Polihidroxialcanoatos, ¿El sustituto ideal de los plásticos?",
         "descripcion": "none",
         "inicial": "B",
         "carrera": "IQ",
+        "dia":"17 de Noviembre",
+        "hora":"13:00 a 14:00",
         "img": "none"
     }
     
