@@ -9,7 +9,7 @@ import { SwalComponent, SwalPortalTargets } from '@sweetalert2/ngx-sweetalert2';
   selector: 'app-conferencistas',
   templateUrl: './conferencistas.component.html',
   styleUrls: ['./conferencistas.component.css'],
- 
+
 })
 export class ConferencistasComponent implements OnInit {
 
@@ -18,15 +18,28 @@ export class ConferencistasComponent implements OnInit {
   @ViewChild('swalidIND') private swalDetallesIND: SwalComponent;
   @ViewChild('swalidIQ') private swalDetallesIQ: SwalComponent;
   @ViewChild('swalidIIAS') private swalDetallesIIAS: SwalComponent;
+  @ViewChild('swalidMag') private swalDetallesMag: SwalComponent;
 
- 
+
+
   conferensistasIGE: {};
   conferencistasISC: {};
   conferencistasIIAS: {};
   conferencistasIND: {};
   conferencistasIQ: {};
-  constructor(private http: HttpClient) { 
-   
+  conferensistasMagistral: {};
+
+  conferencistaFiltradoISC: any;
+  conferencistaFiltradoIGE: any;
+  conferencistaFiltradoIND: any;
+  conferencistaFiltradoIQ: any;
+  conferencistaFiltradoIIAS: any;
+  conferencistaFiltradoMag: any;
+
+
+
+  constructor(private http: HttpClient) {
+
   }
 
   ngOnInit(): void {
@@ -35,53 +48,64 @@ export class ConferencistasComponent implements OnInit {
       confInd: this.http.get('../../../assets/data/conferencistas-ind.json'),
       confIias: this.http.get('../../../assets/data/conferencistas-iias.json'),
       confIq: this.http.get('../../../assets/data/conferencistas-iq.json'),
-      confIsc: this.http.get('../../../assets/data/conferencistas-isc.json')
+      confIsc: this.http.get('../../../assets/data/conferencistas-isc.json'),
+      confMag: this.http.get('../../../assets/data/conferencistas-magistrales.json')
     }).subscribe(data => {
       this.conferensistasIGE = data.confIge;
       this.conferencistasIND = data.confInd;
       this.conferencistasIIAS = data.confIias;
       this.conferencistasIQ = data.confIq;
       this.conferencistasISC = data.confIsc;
-    }); 
-  }
-  
-
-
-  verDetalles(id){
-    console.log('Hola' + id);
+      this.conferensistasMagistral = data.confMag;
+    });
   }
 
 
-  mostrarDetallesISC(evento: any,id){
-    // forkJoin({
-    //   confIsc: this.http.get('../../../assets/data/conferencistas-isc.json')
-    // }).subscribe(data => {
-    //   this.conferencistasISC = data.confIsc;
-    // }); 
-     this.swalDetallesISC.fire()
-  }
- 
-  mostrarDetallesIGE(evento: any,id){
- 
-     this.swalDetallesIGE.fire()
+
+  mostrarDetallesISC(evento: any, id) {
+    if (id == this.conferencistasISC[id].id) {
+      this.conferencistaFiltradoISC = this.conferencistasISC[id];
+    }
+    this.swalDetallesISC.fire();
+
   }
 
-  mostrarDetallesIND(evento: any,id){
- 
-     this.swalDetallesIND.fire()
+  mostrarDetallesIGE(evento: any, id) {
+    if (id == this.conferensistasIGE[id].id) {
+      this.conferencistaFiltradoIGE = this.conferensistasIGE[id];
+    }
+    this.swalDetallesIGE.fire();
   }
 
-  mostrarDetallesIQ(evento: any,id){
- 
-     this.swalDetallesIQ.fire()
+  mostrarDetallesIND(evento: any, id) {
+    if (id == this.conferencistasIND[id].id) {
+      this.conferencistaFiltradoIND = this.conferencistasIND[id];
+    }
+    this.swalDetallesIND.fire()
   }
 
-  mostrarDetallesIIAS(evento: any,id){
- 
-     this.swalDetallesIIAS.fire()
+  mostrarDetallesIQ(evento: any, id) {
+    if (id == this.conferencistasIQ[id].id) {
+      this.conferencistaFiltradoIQ = this.conferencistasIQ[id];
+    }
+    this.swalDetallesIQ.fire()
   }
-  
+
+  mostrarDetallesIIAS(evento: any, id) {
+    if (id == this.conferencistasIIAS[id].id) {
+      this.conferencistaFiltradoIIAS = this.conferencistasIIAS[id];
+    }
+    this.swalDetallesIIAS.fire()
+  }
+
+
+  mostrarDetallesMag(evento: any, id) {
+    if (id == this.conferensistasMagistral[id].id) {
+      this.conferencistaFiltradoMag = this.conferensistasMagistral[id];
+    }
+    this.swalDetallesMag.fire()
+  }
+
 
 }
 
- 

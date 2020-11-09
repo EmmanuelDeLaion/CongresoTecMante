@@ -6,10 +6,10 @@
         "descripcion": "Game producer - Globant S.A.",
         "inicial": "D",
         "carrera": "ISC",
-        "dia":"16 de Noviembre",
-        "hora":"9:30 a 10:30",
+        "dia": "16 de Noviembre",
+        "hora": "9:30 a 10:30",
         "img": "none",
-        "id": "1"
+        "id": "0"
     },
     {
         "nombre": "Ángel Eduardo Catedral González, Raúl Alberto Hernández Argüelles",
@@ -18,22 +18,22 @@
         "descripcion": "Aprende los principos de NodeJS con la realizacion de un login",
         "inicial": "A-R",
         "carrera": "ISC",
-        "dia":"16 de Noviembre",
-        "hora":"12:00 a 14:00",
+        "dia": "16 y 17 de Noviembre",
+        "hora": "12:00 a 14:00",
         "img": "../../../assets/images/conferencistas/angel-raul.png",
-        "id": "2"
+        "id": "1"
     },
     {
-        "nombre": "Miguel Edgardo Santiago Hernández",
+        "nombre": "Jayson Roberto de León Martínez",
         "tipo": "Taller",
-        "Temas": "Principios de Angular",
-        "descripcion": "none",
-        "inicial": "M-J",
+        "Temas": "Hacking 101",
+        "descripcion": "Curso de dos días de duración que te enseñará los fundamentos del penetration testing y cómo encontrar y explotar vulnerabilidades dentro de distintas tecnologías",
+        "inicial": "J",
         "carrera": "ISC",
-        "dia":"",
-        "hora":"",
-        "img": "../../../assets/images/conferencistas/santiago.jpeg",
-        "id": "3"
+        "dia": "16 y 17 de Noviembre",
+        "hora": "12:00 a 14:00",
+        "img": "../../../assets/images/conferencistas/jayson.png",
+        "id": "2"
     },
     {
         "nombre": "Jesús Emmanuel De León Lerma, Juan Carlos López González",
@@ -42,22 +42,22 @@
         "descripcion": "Aprende crear diseños UI/UX utilizando las herramientas necesarias para el diseño de interfaces",
         "inicial": "J",
         "carrera": "ISC",
-        "dia":"16 de Noviembre",
-        "hora":"11:00 a 12:00",
+        "dia": "16 de Noviembre",
+        "hora": "11:00 a 12:00",
         "img": "../../../assets/images/conferencistas/emmanuel-juan.png",
-        "id": "4"
+        "id": "3"
     },
     {
         "nombre": "Luis Antonio Estrada Villegas",
         "tipo": "Taller",
         "Temas": "Principios de React Native",
-        "descripcion": "none",
+        "descripcion": "Aprende los principios de react native",
         "inicial": "J-L",
         "carrera": "ISC",
-        "dia":"16 de Noviembre",
-        "hora":"12:00 a 14:00",
+        "dia": "16 de Noviembre",
+        "hora": "12:00 a 14:00",
         "img": "../../../assets/images/conferencistas/estrada.png",
-        "id": "5"
+        "id": "4"
     },
     {
         "nombre": "Marco Antonio Nava Hernández",
@@ -66,12 +66,11 @@
         "descripcion": "Unity desde cero",
         "inicial": "M",
         "carrera": "ISC",
-        "dia":"16 de Noviembre",
-        "hora":"12:00 a 14:00",
+        "dia": "16 de Noviembre",
+        "hora": "12:00 a 14:00",
         "img": "../../../assets/images/conferencistas/marco-nava.jpeg",
-        "id": "6"
+        "id": "5"
     },
-
     {
         "nombre": "José de Jesús Vázquez Charles ",
         "tipo": "Taller",
@@ -79,12 +78,11 @@
         "descripcion": "Crea modelos 3D para videojuegos",
         "inicial": "J",
         "carrera": "ISC",
-        "dia":"16 de Noviembre",
-        "hora":"11:00 a 12:20",
+        "dia": "16 de Noviembre",
+        "hora": "11:00 a 12:20",
         "img": "../../../assets/images/conferencistas/charles.jpeg",
-        "id": "7"
+        "id": "6"
     },
-
     {
         "nombre": "José Armando Tovar Sánchez",
         "tipo": "Taller",
@@ -92,24 +90,21 @@
         "descripcion": "Aprende los principios fundamentales de Laravel",
         "inicial": "J",
         "carrera": "ISC",
-        "dia":"16 de Noviembre",
-        "hora":"11:00 a 12:00",
+        "dia": "16 de Noviembre",
+        "hora": "11:00 a 12:00 y 9:00 a 11:00",
         "img": "../../../assets/images/conferencistas/tovar.png",
-        "id": "8"
+        "id": "7"
     },
-
-   
     {
-        "nombre": "Gerardo Joaquin Martínez Hernández",
+        "nombre": "Gerardo Joaquin Martínez Hernández, Miguel Edgardo Santiago Hernández",
         "tipo": "Taller",
         "Temas": "Fullstack App Con Flutter-Nodejs-Express-Socket.Io",
         "descripcion": "Crea una aplicacion con Flutter",
         "inicial": "J",
         "carrera": "ISC",
-        "dia":"16 de Noviembre",
-        "hora":"11:00 a 12:00",
-        "img": "../../../assets/images/conferencistas/joaquin.jpeg",
-        "id": "9"
+        "dia": "16 y 17 de Noviembre",
+        "hora": "11:00 a 12:00 y 9:00 a 11:00",
+        "img": "../../../assets/images/conferencistas/miguel-joaquin.jpeg",
+        "id": "8"
     }
-
 ]

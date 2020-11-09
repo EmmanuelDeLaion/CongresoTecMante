@@ -8,7 +8,8 @@
         "carrera": "IQ",
         "dia":"16 de Noviembre",
         "hora":"10:00 a 11:00",
-        "img": "none"
+        "img": "none",
+        "id": "0"
     },
     {
         "nombre": "Ing. Damián Hernández",
@@ -19,7 +20,9 @@
         "carrera": "IQ",
         "dia":"16 de Noviembre",
         "hora":"11:20 a 12:20",
-        "img": "none"
+        "img": "none",
+        "id": "1"
+
     },
     {
         "nombre": "Dr. C. Jonathan Pérez Meseguer",
@@ -30,7 +33,9 @@
         "carrera": "IQ",
         "dia":"16 de Noviembre",
         "hora":"13:00 a 14:00",
-        "img": "none"
+        "img": "none",
+        "id": "2"
+
     },
     {
         "nombre": "M.C. Elida Lee Bazaldua",
@@ -41,7 +46,9 @@
         "carrera": "IQ",
         "dia":"17 de Noviembre",
         "hora":"9:00 a 10:00",
-        "img": "none"
+        "img": "none",
+        "id": "3"
+
     },
     {
         "nombre": "MC Belém Lorelay López González ",
@@ -52,7 +59,9 @@
         "carrera": "IQ",
         "dia":"17 de Noviembre",
         "hora":"13:00 a 14:00",
-        "img": "none"
+        "img": "none",
+        "id": "4"
+
     }
     
 ]

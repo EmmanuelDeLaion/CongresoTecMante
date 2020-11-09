@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Cindy García y Paulina",
+        "tipo": "Conferencia",
+        "Temas": "¿Cómo utilizar la fórmula del éxito?",
+        "descripcion": "Cobos, Couch en CEHR Tampico",
+        "inicial": "C y P",
+        "carrera": "ISC",
+        "dia": "19 de Noviembre",
+        "hora": "10:00",
+        "img": "../../../assets/images/conferencistas/cindy-g.png",
+        "id": "0"
+    },
+    {
+        "nombre": "Gabriela Arriaga-Viggiano",
+        "tipo": "Conferencia",
+        "Temas": "Sr. Scrum Master y Gerente de Desarrollo de Personas en Singular Pittsburg",
+        "descripcion": "Sr. Scrum Master y Gerente de Desarrollo de Personas en Singular Pittsburg",
+        "inicial": "G",
+        "carrera": "ISC",
+        "dia": "19 de Noviembre",
+        "hora": "11:30",
+        "img": "../../../assets/images/conferencistas/gabriela-a.png",
+        "id": "1"
+    },
+    {
+        "nombre": "Adriana Macías",
+        "tipo": "Conferencia",
+        "Temas": "Inclusión y equidad de género",
+        "descripcion": "Inclusión y equidad de género",
+        "inicial": "A",
+        "carrera": "ISC",
+        "dia": "19 de Noviembre",
+        "hora": "11:30",
+        "img": "../../../assets/images/conferencistas/adriana-m.png",
+        "id": "2"
+    }
+]

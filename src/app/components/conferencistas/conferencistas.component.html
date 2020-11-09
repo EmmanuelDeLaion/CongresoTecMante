@@ -2,9 +2,9 @@
 <swal class="swal-wide" #swalidISC title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
     <div *swalPortal>
         <div>
-            <div *ngFor="let info of conferencistasISC">
+            <div>
                 <div class="row justify-content-center">
-                    <img class="imagen-detalles" [src]="info.img"   alt="">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoISC.img"   alt="">
                 </div>
                 <table  class="table table-light">
                     <thead>
@@ -14,7 +14,7 @@
                                     Nombre:
                                 </div>
                             </th>
-                            <td>{{info.nombre}}</td>
+                            <td>{{conferencistaFiltradoISC.nombre}}</td>
                         </tr>
     
                         <tr>
@@ -23,7 +23,7 @@
                                     Tema:
                                 </div>
                             </th>
-                            <td>{{info.Temas}}</td>
+                            <td>{{conferencistaFiltradoISC.Temas}}</td>
                         </tr>
     
                         <tr>
@@ -32,7 +32,7 @@
                                     Tipo:
                                 </div>
                             </th>
-                            <td>{{info.tipo}}</td>
+                            <td>{{conferencistaFiltradoISC.tipo}}</td>
                         </tr>
     
                         <tr>
@@ -41,7 +41,7 @@
                                     Descripción:
                                 </div>
                             </th>
-                            <td>{{info.descripcion}}</td>
+                            <td>{{conferencistaFiltradoISC.descripcion}}</td>
                         </tr>
     
                         <tr>
@@ -50,7 +50,7 @@
                                     Día:
                                 </div>
                             </th>
-                            <td>{{info.dia}}</td>
+                            <td>{{conferencistaFiltradoISC.dia}}</td>
                         </tr>
     
                         <tr>
@@ -59,7 +59,7 @@
                                     Hora:
                                 </div>
                             </th>
-                            <td>{{info.hora}}</td>
+                            <td>{{conferencistaFiltradoISC.hora}}</td>
                         </tr>
                        
                     </thead>
@@ -74,9 +74,9 @@
 <swal class="swal-wide" #swalidIGE title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
     <div *swalPortal>
         <div>
-            <div *ngFor="let info of conferensistasIGE">
+            <div>
                 <div class="row justify-content-center">
-                    <img class="imagen-detalles" [src]="info.img"   alt="">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoIGE.img"   alt="">
                 </div>
                 <table  class="table table-light">
                     <thead>
@@ -86,7 +86,7 @@
                                     Nombre:
                                 </div>
                             </th>
-                            <td>{{info.nombre}}</td>
+                            <td>{{conferencistaFiltradoIGE.nombre}}</td>
                         </tr>
     
                         <tr>
@@ -95,7 +95,7 @@
                                     Tema:
                                 </div>
                             </th>
-                            <td>{{info.Temas}}</td>
+                            <td>{{conferencistaFiltradoIGE.Temas}}</td>
                         </tr>
     
                         <tr>
@@ -104,7 +104,7 @@
                                     Tipo:
                                 </div>
                             </th>
-                            <td>{{info.tipo}}</td>
+                            <td>{{conferencistaFiltradoIGE.tipo}}</td>
                         </tr>
     
                         <tr>
@@ -113,7 +113,7 @@
                                     Descripción:
                                 </div>
                             </th>
-                            <td>{{info.descripcion}}</td>
+                            <td>{{conferencistaFiltradoIGE.descripcion}}</td>
                         </tr>
     
                         <tr>
@@ -122,7 +122,7 @@
                                     Día:
                                 </div>
                             </th>
-                            <td>{{info.dia}}</td>
+                            <td>{{conferencistaFiltradoIGE.dia}}</td>
                         </tr>
     
                         <tr>
@@ -131,7 +131,7 @@
                                     Hora:
                                 </div>
                             </th>
-                            <td>{{info.hora}}</td>
+                            <td>{{conferencistaFiltradoIGE.hora}}</td>
                         </tr>
                        
                     </thead>
@@ -141,6 +141,298 @@
         </div>
     </div>
 </swal>
+
+<!-- ind -->
+<swal class="swal-wide" #swalidIND title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
+    <div *swalPortal>
+        <div>
+            <div>
+                <div class="row justify-content-center">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoIND.img"   alt="">
+                </div>
+                <table  class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Nombre:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIND.nombre}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tema:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIND.Temas}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tipo:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIND.tipo}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Descripción:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIND.descripcion}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Día:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIND.dia}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Hora:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIND.hora}}</td>
+                        </tr>
+                       
+                    </thead>
+                </table>
+            </div>
+           
+        </div>
+    </div>
+</swal>
+
+
+<!-- iq -->
+<swal class="swal-wide" #swalidIQ title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
+    <div *swalPortal>
+        <div>
+            <div>
+                <div class="row justify-content-center">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoIQ.img"   alt="">
+                </div>
+                <table  class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Nombre:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIQ.nombre}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tema:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIQ.Temas}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tipo:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIQ.tipo}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Descripción:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIQ.descripcion}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Día:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIQ.dia}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Hora:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIQ.hora}}</td>
+                        </tr>
+                       
+                    </thead>
+                </table>
+            </div>
+           
+        </div>
+    </div>
+</swal>
+
+
+<!-- iias -->
+<swal class="swal-wide" #swalidIIAS title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
+    <div *swalPortal>
+        <div>
+            <div>
+                <div class="row justify-content-center">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoIIAS.img"   alt="">
+                </div>
+                <table  class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Nombre:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIIAS.nombre}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tema:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIIAS.Temas}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tipo:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIIAS.tipo}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Descripción:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIIAS.descripcion}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Día:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIIAS.dia}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Hora:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoIIAS.hora}}</td>
+                        </tr>
+                       
+                    </thead>
+                </table>
+            </div>
+           
+        </div>
+    </div>
+</swal>
+
+
+<!-- iias -->
+<swal class="swal-wide" #swalidMag title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
+    <div *swalPortal>
+        <div>
+            <div>
+                <div class="row justify-content-center">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoMag.img"   alt="">
+                </div>
+                <table  class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Nombre:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoMag.nombre}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tema:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoMag.Temas}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tipo:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoMag.tipo}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Descripción:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoMag.descripcion}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Día:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoMag.dia}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Hora:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoMag.hora}}</td>
+                        </tr>
+                       
+                    </thead>
+                </table>
+            </div>
+           
+        </div>
+    </div>
+</swal>
+
 
 
 
@@ -303,6 +595,35 @@
                                             {{conferencista.Temas}}</p>
                                     </div>
                                     <button class="detalles btn ver" (click)="mostrarDetallesIQ($event,conferencista.id)">Detalles</button>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <!-- Carusel magistrales -->
+                     <div class="carousel-item">
+                        <div class="row justify-content-center" style="background-color: white;">
+                            <div class="col-12">
+                                <h2 class="text-center">Magistral</h2>
+                            </div>
+                            <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-3 mt-3"
+                                *ngFor="let conferencista of conferensistasMagistral">
+                                <div class="card d-flex align-items-center">
+                                    <img *ngIf="conferencista.img!=='none'" class="card-img-top"
+                                        src="{{conferencista.img}}" alt="Card image cap">
+                                    <div *ngIf="conferencista.img==='none'"
+                                        class="avatar-circle d-flex align-items-center justify-content-center">
+                                        <h1 style="color: white;">{{conferencista.inicial}}</h1>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{conferencista.nombre}}</h5>
+                                        <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
+                                            {{conferencista.Temas}}</p>
+                                    </div>
+                                    <button class="detalles btn ver" (click)="mostrarDetallesMag($event,conferencista.id)">Detalles</button>
 
 
                                 </div>

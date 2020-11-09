@@ -8,7 +8,8 @@
         "carrera": "IND",
         "dia":"16 de Noviembre ",
         "hora":"9:00 a 13:00",
-        "img": "../../../assets/images/conferencistas/marta-elvira.png"
+        "img": "../../../assets/images/conferencistas/marta-elvira.png",
+        "id": "0"
     },
     {
         "nombre": "Ing. Juan Antonio Fuentes Aguilar",
@@ -19,7 +20,8 @@
         "carrera": "IND",
         "dia":"16 de Noviembre ",
         "hora":"10:00 a 11:00",
-        "img": "../../../assets/images/conferencistas/juan-antonio.png"
+        "img": "../../../assets/images/conferencistas/juan-antonio.png",
+        "id": "1"
     },
     {
         "nombre": "M.S.P. Lizzeth Quevedo Nava",
@@ -30,7 +32,8 @@
         "carrera": "IND",
         "dia":"16 y 17 de Noviembre ",
         "hora":"11:00 a 13:00 y 10:00 a 11:00",
-        "img": "../../../assets/images/conferencistas/lizzeth-quevedo.jpg"
+        "img": "../../../assets/images/conferencistas/lizzeth-quevedo.jpg",
+        "id": "2"
     },
     {
         "nombre": "Ing. Fernando Chi Osoria",
@@ -40,7 +43,8 @@
         "carrera": "IND",
         "dia":"16 de Noviembre",
         "hora":"",
-        "img": "../../../assets/images/conferencistas/fernando-chi.png"
+        "img": "../../../assets/images/conferencistas/fernando-chi.png",
+        "id": "3"
     },
     {
         "nombre": "Ing. David Coronel Trejo",
@@ -51,7 +55,8 @@
         "carrera": "IND",
         "dia":"16 de Noviembre",
         "hora":"12:00 a 13:00",
-        "img": "../../../assets/images/conferencistas/david-coronel.png"
+        "img": "../../../assets/images/conferencistas/david-coronel.png",
+        "id": "4"
     },
     {
         "nombre": "Dr. Mario Kanul Ku ",
@@ -62,7 +67,8 @@
         "carrera": "IND",
         "dia":"16 de Noviembre",
         "hora":"12:00 a 13:00",
-        "img": "../../../assets/images/conferencistas/mario-kanul.png"
+        "img": "../../../assets/images/conferencistas/mario-kanul.png",
+        "id": "5"
     },
     {
         "nombre": "Ing. Miguel Ángel Zúñiga Martínez",
@@ -73,7 +79,8 @@
         "carrera": "IND",
         "dia":"17 de Noviembre",
         "hora":"10:00 a 13:00",
-        "img": "../../../assets/images/conferencistas/miguel-angel.png"
+        "img": "../../../assets/images/conferencistas/miguel-angel.png",
+        "id": "6"
     },
     {
         "nombre": "Ing. Carlos Meneces",
@@ -84,7 +91,8 @@
         "carrera": "IND",
         "dia":"17 de Noviembre",
         "hora":"13:00 a 14:00",
-        "img": "none"
+        "img": "none",
+        "id": "7"
     },
     {
         "nombre": " Ing. Odín Fernando Eufracio Vázquez",
@@ -95,7 +103,8 @@
         "carrera": "IND",
         "dia":"17 de Noviembre",
         "hora":"11:00 a 13:00",
-        "img": "../../../assets/images/conferencistas/fernando-efracio.png"
+        "img": "../../../assets/images/conferencistas/fernando-efracio.png",
+        "id": "8"
     },
     {
         "nombre": "Ing. María Guadalupe Orozco Juárez",
@@ -106,7 +115,8 @@
         "carrera": "IND",
         "dia":"17 de Noviembre",
         "hora":"10:00 a 12:00",
-        "img": "../../../assets/images/conferencistas/maria-guadalupe.png"
+        "img": "../../../assets/images/conferencistas/maria-guadalupe.png",
+        "id": "9"
     }
     ,
     {
@@ -118,6 +128,7 @@
         "carrera": "IND",
         "dia":"17 de Noviembre",
         "hora":"10:00 a 13:00",
-        "img": "none"
+        "img": "none",
+        "id": "10"
     }
 ]
