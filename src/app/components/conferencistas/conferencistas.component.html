@@ -1,3 +1,150 @@
+<!-- isc -->
+<swal class="swal-wide" #swalidISC title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
+    <div *swalPortal>
+        <div>
+            <div *ngFor="let info of conferencistasISC">
+                <div class="row justify-content-center">
+                    <img class="imagen-detalles" [src]="info.img"   alt="">
+                </div>
+                <table  class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Nombre:
+                                </div>
+                            </th>
+                            <td>{{info.nombre}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tema:
+                                </div>
+                            </th>
+                            <td>{{info.Temas}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tipo:
+                                </div>
+                            </th>
+                            <td>{{info.tipo}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Descripción:
+                                </div>
+                            </th>
+                            <td>{{info.descripcion}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Día:
+                                </div>
+                            </th>
+                            <td>{{info.dia}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Hora:
+                                </div>
+                            </th>
+                            <td>{{info.hora}}</td>
+                        </tr>
+                       
+                    </thead>
+                </table>
+            </div>
+           
+        </div>
+    </div>
+</swal>
+
+<!-- ige -->
+<swal class="swal-wide" #swalidIGE title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
+    <div *swalPortal>
+        <div>
+            <div *ngFor="let info of conferensistasIGE">
+                <div class="row justify-content-center">
+                    <img class="imagen-detalles" [src]="info.img"   alt="">
+                </div>
+                <table  class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Nombre:
+                                </div>
+                            </th>
+                            <td>{{info.nombre}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tema:
+                                </div>
+                            </th>
+                            <td>{{info.Temas}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tipo:
+                                </div>
+                            </th>
+                            <td>{{info.tipo}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Descripción:
+                                </div>
+                            </th>
+                            <td>{{info.descripcion}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Día:
+                                </div>
+                            </th>
+                            <td>{{info.dia}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Hora:
+                                </div>
+                            </th>
+                            <td>{{info.hora}}</td>
+                        </tr>
+                       
+                    </thead>
+                </table>
+            </div>
+           
+        </div>
+    </div>
+</swal>
+
+
+
+
 <div class="conferencistas">
     <div class="container">
         <div class="col-12">
@@ -31,7 +178,7 @@
                         <div class="row justify-content-center" style="background-color: white;">
                             <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-3 mt-3"
                                 *ngFor="let conferencista of conferencistasISC">
-                                <div class="card d-flex align-items-center">
+                                <div class="card align-items-center">
                                     <img *ngIf="conferencista.img!=='none'" class="card-img-top"
                                         src="{{conferencista.img}}" alt="Card image cap">
                                     <div *ngIf="conferencista.img==='none'"
@@ -40,12 +187,18 @@
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                        <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
+                                            {{conferencista.Temas}}</p>
                                     </div>
+                                    <button class="detalles btn ver" (click)="mostrarDetallesISC($event,conferencista.id)">Detalles</button>
                                 </div>
+
+
                             </div>
 
                         </div>
+
+
                     </div>
 
                     <!-- Carusel ige -->
@@ -56,7 +209,7 @@
                             </div>
                             <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-3 mt-3"
                                 *ngFor="let conferencista of conferensistasIGE">
-                                <div class="card d-flex align-items-center"  >
+                                <div class="card d-flex align-items-center">
                                     <img *ngIf="conferencista.img!=='none'" class="card-img-top"
                                         src="{{conferencista.img}}" alt="Card image cap">
                                     <div *ngIf="conferencista.img==='none'"
@@ -65,8 +218,11 @@
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                        <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
+                                            {{conferencista.Temas}}</p>
                                     </div>
+                                    <button class="detalles btn ver" (click)="mostrarDetallesIGE($event,conferencista.id)">Detalles</button>
+
                                 </div>
                             </div>
                         </div>
@@ -80,7 +236,7 @@
                             </div>
                             <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-3 mt-3"
                                 *ngFor="let conferencista of conferencistasIND">
-                                <div class="card d-flex align-items-center" >
+                                <div class="card d-flex align-items-center">
                                     <img *ngIf="conferencista.img!=='none'" class="card-img-top"
                                         src="{{conferencista.img}}" alt="Card image cap">
                                     <div *ngIf="conferencista.img==='none'"
@@ -89,8 +245,11 @@
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                        <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
+                                            {{conferencista.Temas}}</p>
                                     </div>
+                                    <button class="detalles btn ver" (click)="mostrarDetallesIND($event,conferencista.id)">Detalles</button>
+
                                 </div>
                             </div>
                         </div>
@@ -104,7 +263,7 @@
                             </div>
                             <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-3 mt-3"
                                 *ngFor="let conferencista of conferencistasIIAS">
-                                <div class="card d-flex align-items-center" >
+                                <div class="card d-flex align-items-center">
                                     <img *ngIf="conferencista.img!=='none'" class="card-img-top"
                                         src="{{conferencista.img}}" alt="Card image cap">
                                     <div *ngIf="conferencista.img==='none'"
@@ -113,8 +272,11 @@
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                        <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
+                                            {{conferencista.Temas}}</p>
                                     </div>
+                                    <button class="detalles btn ver" (click)="mostrarDetallesIIAS($event,conferencista.id)">Detalles</button>
+
                                 </div>
                             </div>
                         </div>
@@ -137,11 +299,15 @@
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{conferencista.nombre}}</h5>
-                                        <p class="card-text">{{conferencista.Temas}}</p>
+                                        <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
+                                            {{conferencista.Temas}}</p>
                                     </div>
+                                    <button class="detalles btn ver" (click)="mostrarDetallesIQ($event,conferencista.id)">Detalles</button>
+
+
                                 </div>
                             </div>
-                             
+
                         </div>
                     </div>
 
@@ -167,4 +333,3 @@
         </div>
 
     </div>
-</div>

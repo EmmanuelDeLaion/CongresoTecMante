@@ -1,77 +1,115 @@
-[{
+[
+    {
+        "nombre": "Diego José Salatino",
+        "tipo": "Conferencia",
+        "Temas": "Games",
+        "descripcion": "Game producer - Globant S.A.",
+        "inicial": "D",
+        "carrera": "ISC",
+        "dia":"16 de Noviembre",
+        "hora":"9:30 a 10:30",
+        "img": "none",
+        "id": "1"
+    },
+    {
         "nombre": "Ángel Eduardo Catedral González, Raúl Alberto Hernández Argüelles",
-        "Temas": "Login y Registro con HTML, CSS, JS, NodeJS y MySQL",
-        "descripcion": "none",
+        "tipo": "Taller",
+        "Temas": "Principios de NodeJS en proyectos",
+        "descripcion": "Aprende los principos de NodeJS con la realizacion de un login",
         "inicial": "A-R",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/angel-raul.png"
+        "dia":"16 de Noviembre",
+        "hora":"12:00 a 14:00",
+        "img": "../../../assets/images/conferencistas/angel-raul.png",
+        "id": "2"
     },
     {
         "nombre": "Miguel Edgardo Santiago Hernández",
+        "tipo": "Taller",
         "Temas": "Principios de Angular",
         "descripcion": "none",
         "inicial": "M-J",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/santiago.jpeg"
+        "dia":"",
+        "hora":"",
+        "img": "../../../assets/images/conferencistas/santiago.jpeg",
+        "id": "3"
     },
     {
         "nombre": "Jesús Emmanuel De León Lerma, Juan Carlos López González",
+        "tipo": "Taller",
         "Temas": "Herramientas para el diseño de interfaces UI/UX",
-        "descripcion": "none",
+        "descripcion": "Aprende crear diseños UI/UX utilizando las herramientas necesarias para el diseño de interfaces",
         "inicial": "J",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/emmanuel-juan.png"
+        "dia":"16 de Noviembre",
+        "hora":"11:00 a 12:00",
+        "img": "../../../assets/images/conferencistas/emmanuel-juan.png",
+        "id": "4"
     },
     {
         "nombre": "Luis Antonio Estrada Villegas",
+        "tipo": "Taller",
         "Temas": "Principios de React Native",
         "descripcion": "none",
         "inicial": "J-L",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/estrada.png"
+        "dia":"16 de Noviembre",
+        "hora":"12:00 a 14:00",
+        "img": "../../../assets/images/conferencistas/estrada.png",
+        "id": "5"
     },
     {
         "nombre": "Marco Antonio Nava Hernández",
+        "tipo": "Taller",
         "Temas": "Unity desde cero",
-        "descripcion": "none",
+        "descripcion": "Unity desde cero",
         "inicial": "M",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/marco-nava.jpeg"
+        "dia":"16 de Noviembre",
+        "hora":"12:00 a 14:00",
+        "img": "../../../assets/images/conferencistas/marco-nava.jpeg",
+        "id": "6"
     },
 
     {
         "nombre": "José de Jesús Vázquez Charles ",
+        "tipo": "Taller",
         "Temas": "Introducción al modelado 3D para videojuegos",
-        "descripcion": "none",
+        "descripcion": "Crea modelos 3D para videojuegos",
         "inicial": "J",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/charles.jpeg"
+        "dia":"16 de Noviembre",
+        "hora":"11:00 a 12:20",
+        "img": "../../../assets/images/conferencistas/charles.jpeg",
+        "id": "7"
     },
 
     {
         "nombre": "José Armando Tovar Sánchez",
+        "tipo": "Taller",
         "Temas": "Principios de Laravel",
-        "descripcion": "none",
+        "descripcion": "Aprende los principios fundamentales de Laravel",
         "inicial": "J",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/tovar.png"
+        "dia":"16 de Noviembre",
+        "hora":"11:00 a 12:00",
+        "img": "../../../assets/images/conferencistas/tovar.png",
+        "id": "8"
     },
 
-    {
-        "nombre": "Diego José Salatino",
-        "Temas": "Conferencia Games",
-        "descripcion": "Game producer - Globant S.A.",
-        "inicial": "D",
-        "carrera": "ISC",
-        "img": "none"
-    },
+   
     {
         "nombre": "Gerardo Joaquin Martínez Hernández",
+        "tipo": "Taller",
         "Temas": "Fullstack App Con Flutter-Nodejs-Express-Socket.Io",
-        "descripcion": "none",
+        "descripcion": "Crea una aplicacion con Flutter",
         "inicial": "J",
         "carrera": "ISC",
-        "img": "../../../assets/images/conferencistas/joaquin.jpeg"
+        "dia":"16 de Noviembre",
+        "hora":"11:00 a 12:00",
+        "img": "../../../assets/images/conferencistas/joaquin.jpeg",
+        "id": "9"
     }
 
 ]

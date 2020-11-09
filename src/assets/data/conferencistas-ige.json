@@ -1,83 +1,147 @@
 [
     {
         "nombre": "Victor Alvarado Rodríguez",
+        "tipo": "Conferencia",
         "descripcion": "Director de Mercadotecnia de la Federación Mexicana de Fútbol y catedrático en Johan Cruyff Institute en México y Perú",
         "inicial": "V",
         "Temas": "Todo es cuestión de propósito",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/victor-alvarado.png"
+        "dia":"16 de Noviembre",
+        "hora":"9:00 a 10:20",
+        "img": "../../../assets/images/conferencistas/victor-alvarado.png",
+        "id": "1"
+    },
+    {
+        "nombre": "Verónica Torcedilla Acevedo",
+        "tipo": "Conferencia",
+        "descripcion": " Directora Programa Finanzas y Negocios Internacionales Universidad Tecnológica de Bolívar, Cartagena Colombia",
+        "inicial": "V",
+        "Temas": "Inteligencia Emocional",
+        "carrera": "IGE",
+        "dia":"16 de Noviembre",
+        "hora":"11:00 a 12:20",
+        "img": "none",
+        "id": "2"
     },
     {
         "nombre": "Eva Idalid Salce Morales",
+        "tipo": "Conferencia",
         "descripcion": "...",
         "inicial": "E",
         "Temas": "Expediente Laboral",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/eva-idalid.jpeg"
+        "dia":"17 de Noviembre",
+        "hora":"9:00 a 10:00",
+        "img": "../../../assets/images/conferencistas/eva-idalid.jpeg",
+        "id": "3"
+    },
+    {
+        "nombre": "Alba Zulay Cárdenas Escobar",
+        "tipo": "Conferencia",
+        "descripcion": "Directora Académica Posgrados en Finanzas, Universidad Tecnológica de Bolívar, Cartagena Colombia",
+        "inicial": "A",
+        "Temas": "Expediente Laboral",
+        "carrera": "IGE",
+        "dia":"16 de Noviembre",
+        "hora":"13:00 a 14:00",
+        "img": "none",
+        "id": "4"
     },
     {
         "nombre": "José Antonio Coral Morante",
+        "tipo": "Conferencia",
         "descripcion": "Docente del Programa de Administración y Marketing",
         "inicial": "J",
         "Temas": "Estrategia de Marketing Digital como generador de valor para el cliente",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/coral.png"
+        "dia":"16 de Noviembre",
+        "hora":"15:00 a 16:20",
+        "img": "../../../assets/images/conferencistas/coral.png",
+        "id": "5"
     },
     {
         "nombre": "Alejandro Trujillo Jiménez",
+        "tipo": "Conferencia-Taller",
         "descripcion": "...",
         "inicial": "A",
         "Temas": "Alta patronal en SUA Empresarial, Cálculo de cuotas obrero - patronal en SUA Empresarial",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/trujillo.jpg"
+        "dia":"17 de noviembre",
+        "hora":"12:00 a 14:00",
+        "img": "../../../assets/images/conferencistas/trujillo.jpg",
+        "id": "6"
     },
     {
         "nombre": "Daniel Eduardo Paz Pérez",
+        "tipo": "Conferencia-Taller",
         "descripcion": "...",
         "inicial": "D",
         "Temas": "Nóminas, Sueldos y salarios",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/paz-perez.jpg"
+        "dia":"17 de Noviembre",
+        "hora":"10:00 a 12:00 y 12:00 a 14:00",
+        "img": "../../../assets/images/conferencistas/paz-perez.jpg",
+        "id": "7"
     },
     {
         "nombre": "Mónica Alejandra Hernández Garza",
+        "tipo": "Conferencia-Taller",
         "descripcion": "...",
         "inicial": "M",
         "Temas": "Habilidades Sociales para truinfar",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/monica.jpg"
+        "dia":"17 de Noviembre",
+        "hora":"9:00 a 14:00",
+        "img": "../../../assets/images/conferencistas/monica.jpg",
+        "id": "8"
     },
     {
         "nombre": "Sindy Sinaí Leal Lara",
+        "tipo": "Conferencia-Taller",
         "descripcion": "...",
         "inicial": "S",
         "Temas": "Análisis y solución de problemas",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/sindy.jpg"
+        "dia":"17 de Noviembre",
+        "hora":"9:00 a 14:00",
+        "img": "../../../assets/images/conferencistas/sindy.jpg",
+        "id": "9"
     },
     {
         "nombre": "Gabriel Manasénes Torres Martínez",
+        "tipo": "Conferencia",
         "descripcion": "...",
         "inicial": "G",
         "Temas": "Análisis y solución de problemas",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/gabriel-mansenes.png"
+        "dia":"",
+        "hora":"",
+        "img": "../../../assets/images/conferencistas/gabriel-mansenes.png",
+        "id": "10"
     },
     {
         "nombre": "Leidi Margarita Torres Zamarrón",
+        "tipo": "Conferencia",
         "descripcion": "...",
         "inicial": "L",
         "Temas": "Análisis y solución de problemas",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/leidi-margarita.png"
+        "dia":"",
+        "hora":"",
+        "img": "../../../assets/images/conferencistas/leidi-margarita.png",
+        "id": "11"
     },
     {
         "nombre": "Joel Antonio Martínez Hernández",
+        "tipo": "Conferencia",
         "descripcion": "...",
         "inicial": "J",
         "Temas": "Análisis y solución de problemas",
         "carrera": "IGE",
-        "img": "../../../assets/images/conferencistas/joel-antonio.png"
+        "dia":"",
+        "hora":"",
+        "img": "../../../assets/images/conferencistas/joel-antonio.png",
+        "id": "12"
     }
     
 ]
