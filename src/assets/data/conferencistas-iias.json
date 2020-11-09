@@ -8,7 +8,8 @@
         "carrera": "IIAS",
         "dia":"16 de Noviembre",
         "hora":"9:30 a 10:20",
-        "img": "none"
+        "img": "none",
+        "id": "0"
     },
     {
         "nombre": "Jorge Luis Vega Chávez",
@@ -19,7 +20,8 @@
         "carrera": "IIAS",
         "dia":"16 de Noviembre",
         "hora":"11:30 a 12:30",
-        "img": "none"
+        "img": "none",
+        "id": "1"
     },
     {
         "nombre": "M.C Ana Karen Serrano Domínguez",
@@ -30,7 +32,8 @@
         "carrera": "IIAS",
         "dia":"16 de Noviembre",
         "hora":"12:45 a 13:45",
-        "img": "none"
+        "img": "none",
+        "id": "2"
     },
     {
         "nombre": "M.C. María Guadalupe Cepeda Puente",
@@ -41,7 +44,8 @@
         "carrera": "IIAS",
         "dia":"17 de Noviembre",
         "hora":"10:00 a 11:00",
-        "img": "none"
+        "img": "none",
+        "id": "3"
     },
     {
         "nombre": "Dr. Rodolfo Garza Flores ",
@@ -52,7 +56,8 @@
         "carrera": "IIAS",
         "dia":"17 de Noviembre",
         "hora":"14:00 a 15:00",
-        "img": "none"
+        "img": "none",
+        "id": "4"
     },
     {
         "nombre": "Dr. Jorge Ariel Torres Acosta",
@@ -63,7 +68,8 @@
         "carrera": "IIAS",
         "dia":"17 de Noviembre",
         "hora":"11:15 a 12:15",
-        "img": "none"
+        "img": "none",
+        "id": "5"
     },
     {
         "nombre": "Ing. Rubén Esquivel Mendiola",
@@ -74,7 +80,8 @@
         "carrera": "IIAS",
         "dia":"17 de Noviembre",
         "hora":"12:30 a 13:30",
-        "img": "none"
+        "img": "none",
+        "id": "6"
     },
     {
         "nombre": "Dr. Carlos de los Ríos",
@@ -85,7 +92,8 @@
         "carrera": "IIAS",
         "dia":"16 de Noviembre",
         "hora":"14:00 a 15:00",
-        "img": "none"
+        "img": "none",
+        "id": "7"
     }
  
  

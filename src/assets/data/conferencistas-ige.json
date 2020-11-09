@@ -9,7 +9,7 @@
         "dia":"16 de Noviembre",
         "hora":"9:00 a 10:20",
         "img": "../../../assets/images/conferencistas/victor-alvarado.png",
-        "id": "1"
+        "id": "0"
     },
     {
         "nombre": "Verónica Torcedilla Acevedo",
@@ -21,7 +21,7 @@
         "dia":"16 de Noviembre",
         "hora":"11:00 a 12:20",
         "img": "none",
-        "id": "2"
+        "id": "1"
     },
     {
         "nombre": "Eva Idalid Salce Morales",
@@ -33,7 +33,7 @@
         "dia":"17 de Noviembre",
         "hora":"9:00 a 10:00",
         "img": "../../../assets/images/conferencistas/eva-idalid.jpeg",
-        "id": "3"
+        "id": "2"
     },
     {
         "nombre": "Alba Zulay Cárdenas Escobar",
@@ -45,7 +45,7 @@
         "dia":"16 de Noviembre",
         "hora":"13:00 a 14:00",
         "img": "none",
-        "id": "4"
+        "id": "3"
     },
     {
         "nombre": "José Antonio Coral Morante",
@@ -57,7 +57,7 @@
         "dia":"16 de Noviembre",
         "hora":"15:00 a 16:20",
         "img": "../../../assets/images/conferencistas/coral.png",
-        "id": "5"
+        "id": "4"
     },
     {
         "nombre": "Alejandro Trujillo Jiménez",
@@ -69,7 +69,7 @@
         "dia":"17 de noviembre",
         "hora":"12:00 a 14:00",
         "img": "../../../assets/images/conferencistas/trujillo.jpg",
-        "id": "6"
+        "id": "5"
     },
     {
         "nombre": "Daniel Eduardo Paz Pérez",
@@ -81,7 +81,7 @@
         "dia":"17 de Noviembre",
         "hora":"10:00 a 12:00 y 12:00 a 14:00",
         "img": "../../../assets/images/conferencistas/paz-perez.jpg",
-        "id": "7"
+        "id": "6"
     },
     {
         "nombre": "Mónica Alejandra Hernández Garza",
@@ -93,7 +93,7 @@
         "dia":"17 de Noviembre",
         "hora":"9:00 a 14:00",
         "img": "../../../assets/images/conferencistas/monica.jpg",
-        "id": "8"
+        "id": "7"
     },
     {
         "nombre": "Sindy Sinaí Leal Lara",
@@ -105,7 +105,7 @@
         "dia":"17 de Noviembre",
         "hora":"9:00 a 14:00",
         "img": "../../../assets/images/conferencistas/sindy.jpg",
-        "id": "9"
+        "id": "8"
     },
     {
         "nombre": "Gabriel Manasénes Torres Martínez",
@@ -117,7 +117,7 @@
         "dia":"",
         "hora":"",
         "img": "../../../assets/images/conferencistas/gabriel-mansenes.png",
-        "id": "10"
+        "id": "9"
     },
     {
         "nombre": "Leidi Margarita Torres Zamarrón",
@@ -129,7 +129,7 @@
         "dia":"",
         "hora":"",
         "img": "../../../assets/images/conferencistas/leidi-margarita.png",
-        "id": "11"
+        "id": "10"
     },
     {
         "nombre": "Joel Antonio Martínez Hernández",
@@ -141,7 +141,7 @@
         "dia":"",
         "hora":"",
         "img": "../../../assets/images/conferencistas/joel-antonio.png",
-        "id": "12"
+        "id": "11"
     }
     
 ]
