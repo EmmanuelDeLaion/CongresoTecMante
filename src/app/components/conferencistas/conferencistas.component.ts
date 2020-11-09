@@ -19,6 +19,7 @@ export class ConferencistasComponent implements OnInit {
   @ViewChild('swalidIQ') private swalDetallesIQ: SwalComponent;
   @ViewChild('swalidIIAS') private swalDetallesIIAS: SwalComponent;
   @ViewChild('swalidMag') private swalDetallesMag: SwalComponent;
+  @ViewChild('swalidPan') private swalDetallesPan: SwalComponent;
 
 
 
@@ -28,6 +29,8 @@ export class ConferencistasComponent implements OnInit {
   conferencistasIND: {};
   conferencistasIQ: {};
   conferensistasMagistral: {};
+  conferensistasPanelistas: {};
+
 
   conferencistaFiltradoISC: any;
   conferencistaFiltradoIGE: any;
@@ -35,6 +38,8 @@ export class ConferencistasComponent implements OnInit {
   conferencistaFiltradoIQ: any;
   conferencistaFiltradoIIAS: any;
   conferencistaFiltradoMag: any;
+  conferencistaFiltradoPan: any;
+
 
 
 
@@ -49,7 +54,9 @@ export class ConferencistasComponent implements OnInit {
       confIias: this.http.get('../../../assets/data/conferencistas-iias.json'),
       confIq: this.http.get('../../../assets/data/conferencistas-iq.json'),
       confIsc: this.http.get('../../../assets/data/conferencistas-isc.json'),
-      confMag: this.http.get('../../../assets/data/conferencistas-magistrales.json')
+      confMag: this.http.get('../../../assets/data/conferencistas-magistrales.json'),
+      confPan: this.http.get('../../../assets/data/conferencistas-expertos.json')
+
     }).subscribe(data => {
       this.conferensistasIGE = data.confIge;
       this.conferencistasIND = data.confInd;
@@ -57,6 +64,7 @@ export class ConferencistasComponent implements OnInit {
       this.conferencistasIQ = data.confIq;
       this.conferencistasISC = data.confIsc;
       this.conferensistasMagistral = data.confMag;
+      this.conferensistasPanelistas = data.confPan;
     });
   }
 
@@ -104,6 +112,15 @@ export class ConferencistasComponent implements OnInit {
       this.conferencistaFiltradoMag = this.conferensistasMagistral[id];
     }
     this.swalDetallesMag.fire()
+  }
+
+
+  
+  mostrarDetallesPan(evento: any, id) {
+    if (id == this.conferensistasPanelistas[id].id) {
+      this.conferencistaFiltradoPan = this.conferensistasPanelistas[id];
+    }
+    this.swalDetallesPan.fire()
   }
 
 
