@@ -433,6 +433,75 @@
     </div>
 </swal>
 
+<!--  -->
+
+<!-- panelistas -->
+<swal class="swal-wide" #swalidPan title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
+    <div *swalPortal>
+        <div>
+            <div>
+                <div class="row justify-content-center">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoPan.img"   alt="">
+                </div>
+                <table  class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Nombre:
+                                </div>
+                            </th>
+                            <td>
+                                {{conferencistaFiltradoPan.panelista}}
+                            </td>
+                        </tr>
+    
+             
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Tipo:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoPan.tipo}}</td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Enlace:
+                                </div>
+                            </th>
+                            <td>
+                                <a [href]="conferencistaFiltradoPan.link">Ir a la conferencia</a>
+                            </td>
+                        </tr>
+     
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Día:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoPan.dia}}</td>
+                        </tr>
+    
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Hora:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoPan.hora}}</td>
+                        </tr>
+                       
+                    </thead>
+                </table>
+            </div>
+           
+        </div>
+    </div>
+</swal>
 
 
 
@@ -625,6 +694,37 @@
                                     </div>
                                     <button class="detalles btn ver" (click)="mostrarDetallesMag($event,conferencista.id)">Detalles</button>
 
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Carusel panelistas -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center" style="background-color: white;">
+                            <div class="col-12">
+                                <h2 class="text-center">Panelistas</h2>
+                            </div>
+                            <div class="col-12">
+                                <h6 class="text-center">Panel con expertos en la contratación de recién egresados</h6>
+                            </div>
+                            <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-3 mt-3"
+                                *ngFor="let conferencista of conferensistasPanelistas">
+                                <div class="card d-flex align-items-center">
+                                    <img *ngIf="conferencista.img!=='none'" class="card-img-top"
+                                        src="{{conferencista.img}}" alt="Card image cap">
+                                    <div *ngIf="conferencista.img==='none'"
+                                        class="avatar-circle d-flex align-items-center justify-content-center">
+                                        <h1 style="color: white;">{{conferencista.inicial}}</h1>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{conferencista.panelista}}</h5>
+                                        <p class="card-text"> <span class="tipo"> {{conferencista.tipo}} </span></p>
+                                    </div>
+                                    <button class="detalles btn ver" (click)="mostrarDetallesPan($event,conferencista.id)">Detalles</button>
 
                                 </div>
                             </div>
