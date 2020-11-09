@@ -106,42 +106,8 @@
         "hora":"9:00 a 14:00",
         "img": "../../../assets/images/conferencistas/sindy.jpg",
         "id": "8"
-    },
-    {
-        "nombre": "Gabriel Manasénes Torres Martínez",
-        "tipo": "Conferencia",
-        "descripcion": "...",
-        "inicial": "G",
-        "Temas": "Análisis y solución de problemas",
-        "carrera": "IGE",
-        "dia":"",
-        "hora":"",
-        "img": "../../../assets/images/conferencistas/gabriel-mansenes.png",
-        "id": "9"
-    },
-    {
-        "nombre": "Leidi Margarita Torres Zamarrón",
-        "tipo": "Conferencia",
-        "descripcion": "...",
-        "inicial": "L",
-        "Temas": "Análisis y solución de problemas",
-        "carrera": "IGE",
-        "dia":"",
-        "hora":"",
-        "img": "../../../assets/images/conferencistas/leidi-margarita.png",
-        "id": "10"
-    },
-    {
-        "nombre": "Joel Antonio Martínez Hernández",
-        "tipo": "Conferencia",
-        "descripcion": "...",
-        "inicial": "J",
-        "Temas": "Análisis y solución de problemas",
-        "carrera": "IGE",
-        "dia":"",
-        "hora":"",
-        "img": "../../../assets/images/conferencistas/joel-antonio.png",
-        "id": "11"
     }
+   
+ 
     
 ]
