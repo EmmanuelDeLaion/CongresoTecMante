@@ -1,13 +1,12 @@
-[
-    {
+[{
         "nombre": "Dr. Ignacio González",
         "tipo": "Conferencia",
         "Temas": "La Química nos une",
         "descripcion": "presidente de la Sociedad Química de México, A.C. Hora: 1",
         "inicial": "I",
         "carrera": "IQ",
-        "dia":"16 de Noviembre",
-        "hora":"10:00 a 11:00",
+        "dia": "16 de Noviembre",
+        "hora": "10:00 a 11:00",
         "img": "none",
         "id": "0"
     },
@@ -15,11 +14,11 @@
         "nombre": "Ing. Damián Hernández",
         "tipo": "Conferencia",
         "Temas": "Conversión catalítica de emisiones contaminantes de motores Diesel: Una aplicación de la Ingeniería Química",
-        "descripcion": "none",
+        "descripcion": "Conversión catalítica de emisiones contaminantes de motores Diesel",
         "inicial": "D",
         "carrera": "IQ",
-        "dia":"16 de Noviembre",
-        "hora":"11:20 a 12:20",
+        "dia": "16 de Noviembre",
+        "hora": "11:20 a 12:20",
         "img": "none",
         "id": "1"
 
@@ -28,11 +27,11 @@
         "nombre": "Dr. C. Jonathan Pérez Meseguer",
         "tipo": "Conferencia",
         "Temas": "Obtención de aceites esenciales",
-        "descripcion": "none",
+        "descripcion": "Para extraer el aceite es preciso romper la células vegetales mediante a trituración, y después aislar la parte grasa (aceite) de los otros componentes de las semillas o frutos.",
         "inicial": "J",
         "carrera": "IQ",
-        "dia":"16 de Noviembre",
-        "hora":"13:00 a 14:00",
+        "dia": "16 de Noviembre",
+        "hora": "13:00 a 14:00",
         "img": "none",
         "id": "2"
 
@@ -44,8 +43,8 @@
         "descripcion": " Catedrático Universidad Autónoma de Monterrey",
         "inicial": "E",
         "carrera": "IQ",
-        "dia":"17 de Noviembre",
-        "hora":"9:00 a 10:00",
+        "dia": "17 de Noviembre",
+        "hora": "9:00 a 10:00",
         "img": "none",
         "id": "3"
 
@@ -54,14 +53,14 @@
         "nombre": "MC Belém Lorelay López González ",
         "tipo": "Conferencia",
         "Temas": "Polihidroxialcanoatos, ¿El sustituto ideal de los plásticos?",
-        "descripcion": "none",
+        "descripcion": "Poliésteres lineales producidos en la naturaleza por la acción de las bacterias por fermentación del azúcar o lípidos. ",
         "inicial": "B",
         "carrera": "IQ",
-        "dia":"17 de Noviembre",
-        "hora":"13:00 a 14:00",
+        "dia": "17 de Noviembre",
+        "hora": "13:00 a 14:00",
         "img": "none",
         "id": "4"
 
     }
-    
+
 ]
