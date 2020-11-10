@@ -1,13 +1,12 @@
-[
-    {
+[{
         "nombre": "Dr. Edgar Pérez Arriaga",
         "tipo": "Conferencia",
         "Temas": "La gestión ambiental de los residuos en las actividades agropecuarias",
         "descripcion": " Profesor investigador del Instituto Tecnológico de Cd.Victoria",
         "inicial": "E",
         "carrera": "IIAS",
-        "dia":"16 de Noviembre",
-        "hora":"9:30 a 10:20",
+        "dia": "16 de Noviembre",
+        "hora": "9:30 am a 10:20 am",
         "img": "none",
         "id": "0"
     },
@@ -18,8 +17,8 @@
         "descripcion": " Instituto Tecnológico de Cd. Victoria.",
         "inicial": "J",
         "carrera": "IIAS",
-        "dia":"16 de Noviembre",
-        "hora":"11:30 a 12:30",
+        "dia": "16 de Noviembre",
+        "hora": "11:30 am a 12:30 pm",
         "img": "none",
         "id": "1"
     },
@@ -30,8 +29,8 @@
         "descripcion": "none",
         "inicial": "A",
         "carrera": "IIAS",
-        "dia":"16 de Noviembre",
-        "hora":"12:45 a 13:45",
+        "dia": "16 de Noviembre",
+        "hora": "12:45 a 13:45",
         "img": "none",
         "id": "2"
     },
@@ -42,8 +41,8 @@
         "descripcion": "District Sales Manager CORTEVA AGRISCIENCE",
         "inicial": "M",
         "carrera": "IIAS",
-        "dia":"17 de Noviembre",
-        "hora":"10:00 a 11:00",
+        "dia": "17 de Noviembre",
+        "hora": "10:00 a 11:00",
         "img": "none",
         "id": "3"
     },
@@ -54,8 +53,8 @@
         "descripcion": "Prof. Investigador Universidad Autónoma de Tamaulipas-Facultad de Ingeniería Arturo Narro Siller",
         "inicial": "R",
         "carrera": "IIAS",
-        "dia":"17 de Noviembre",
-        "hora":"14:00 a 15:00",
+        "dia": "17 de Noviembre",
+        "hora": "14:00 a 15:00",
         "img": "none",
         "id": "4"
     },
@@ -66,8 +65,8 @@
         "descripcion": "Profesor de Carrera del Instituto de Ecología Aplicada de la Universidad Autónoma de Tamaulipas",
         "inicial": "J",
         "carrera": "IIAS",
-        "dia":"17 de Noviembre",
-        "hora":"11:15 a 12:15",
+        "dia": "17 de Noviembre",
+        "hora": "11:15 a 12:15",
         "img": "none",
         "id": "5"
     },
@@ -78,8 +77,8 @@
         "descripcion": "...",
         "inicial": "J",
         "carrera": "IIAS",
-        "dia":"17 de Noviembre",
-        "hora":"12:30 a 13:30",
+        "dia": "17 de Noviembre",
+        "hora": "12:30 a 13:30",
         "img": "none",
         "id": "6"
     },
@@ -90,11 +89,11 @@
         "descripcion": "Lead Researcher at THECOSA.ORG",
         "inicial": "J",
         "carrera": "IIAS",
-        "dia":"16 de Noviembre",
-        "hora":"14:00 a 15:00",
+        "dia": "16 de Noviembre",
+        "hora": "14:00 a 15:00",
         "img": "none",
         "id": "7"
     }
- 
- 
+
+
 ]

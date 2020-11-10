@@ -26,6 +26,7 @@
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
     "rxjs": "~6.5.5",
+    "swal": "^0.1.0",
     "sweetalert2": "^10.9.1",
     "tslib": "^2.0.0",
     "video.js": "^7.10.1",

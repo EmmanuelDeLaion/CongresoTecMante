@@ -26,8 +26,7 @@
                                 <label for="nombre">Nombre</label>
                                 <div class="input-group">
                                     <i class="fas fa-user-alt icon"></i>
-                                    <input formControlName="nombreCompleto" type="text" class="form-control" id="nombre"
-                                        placeholder="Nombre completo">
+                                    <input formControlName="nombreCompleto" type="text" class="form-control" id="nombre" placeholder="Nombre completo">
                                 </div>
                             </div>
 
@@ -37,8 +36,7 @@
                                 <label for="password">Fecha de nacimiento</label>
                                 <div class="input-group">
                                     <i class="fas fa-calendar icon"></i>
-                                    <input formControlName="fechaNacimiento" type="date" class="form-control"
-                                        id="password" placeholder="Fecha de nacimiento">
+                                    <input formControlName="fechaNacimiento" type="date" class="form-control" id="password" placeholder="Fecha de nacimiento">
                                 </div>
                             </div>
                         </div>
@@ -60,12 +58,27 @@
                                 <label for="password">País</label>
                                 <div class="input-group">
                                     <i class="fas fa-flag icon"></i>
-                                    <select formControlName="paisProcedencia" type="email" class="form-control"
-                                        id="password" placeholder="Pais de origen">
-                                        <option value="México">México</option>
-                                        <option value="Colombia">Colombia</option>
-                                        <option value="Chile">Chile</option>
-                                        <option value="Perú">Perú</option>
+                                    <select formControlName="paisProcedencia" type="email" class="form-control" id="password" placeholder="Pais de origen">
+                                        <option value="Valor2">México</option>
+                                        <option value="Valor2">Argentina</option>
+                                        <option value="Valor2">Bolivia</option>
+                                        <option value="Valor2">Brasil</option>
+                                        <option value="Valor2">Chile</option>
+                                        <option value="Valor2">Colombia</option>
+                                        <option value="Valor2">Costa Rica</option>
+                                        <option value="Valor2">Cuba</option>
+                                        <option value="Valor2">Ecuador</option>
+                                        <option value="Valor2">El Salvador</option>
+                                        <option value="Valor2">Guatemala</option>
+                                        <option value="Valor2">Honduras</option>
+                                        <option value="Valor2">Nicaragua</option>
+                                        <option value="Valor2">Panamá</option>
+                                        <option value="Valor2">Paraguay</option>
+                                        <option value="Valor2">Perú</option>
+                                        <option value="Valor2">Puerto Rico</option>
+                                        <option value="Valor2">República Dominicana</option>
+                                        <option value="Valor2">Uruguay </option>
+                                        <option value="Valor2">Venezuela</option>
                                     </select>
                                 </div>
                             </div>
@@ -76,22 +89,17 @@
                                 <label for="password">Estado</label>
                                 <div class="input-group">
                                     <i class="fas fa-city icon"></i>
-                                    <select formControlName="estadoProcedencia" type="email" class="form-control"
-                                        id="password" placeholder="Estado de origen">
-                                        <option value="Tamaulipas">Tamaulipas</option>
-                                        <option value="Guadalajara">Guadalajara</option>
-                                        <option value="Zacatecas">Zacatecas</option>
-                                        <option value="Chiapas">Chiapas</option>
-                                    </select>
+                                    <input formControlName="estadoProcedencia" type="Text" class="form-control" id="password" placeholder="Estado de origen">
                                 </div>
                             </div>
+
+
 
                             <div class="form-group  col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <label for="email">Correo electrónico</label>
                                 <div class="input-group">
                                     <i class="fas fa-at icon"></i>
-                                    <input formControlName="correo" type="email" class="form-control" id="password"
-                                        placeholder="Correo electrónico">
+                                    <input formControlName="correo" type="email" class="form-control" id="password" placeholder="Correo electrónico">
 
                                 </div>
                             </div>
@@ -102,8 +110,7 @@
 
                         <div class="form-group">
                             <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="check1"
-                                    (change)="estudiante($event)">
+                                <input type="checkbox" class="form-check-input" id="check1" (change)="estudiante($event)">
                                 <label class="form-check-label" for="check1">Soy estudiante</label>
                             </div>
                         </div>
@@ -113,8 +120,7 @@
                                 <label for="nombre">Carrera</label>
                                 <div class="input-group">
                                     <i class="fas fa-user-secret icon"></i>
-                                    <input formControlName="carrera" type="text" class="form-control" id="carrera"
-                                        placeholder="Carrera">
+                                    <input formControlName="carrera" type="text" class="form-control" id="carrera" placeholder="Carrera">
                                 </div>
                             </div>
 
@@ -123,8 +129,7 @@
                                 <label for="nombre">Semestre</label>
                                 <div class="input-group">
                                     <i class="fas fa-sort-numeric-up icon"></i>
-                                    <input formControlName="semestre" type="text" class="form-control" id="semestre"
-                                        placeholder="Semestre">
+                                    <input formControlName="semestre" type="text" class="form-control" id="semestre" placeholder="Semestre">
                                 </div>
                             </div>
                         </div>
@@ -134,14 +139,12 @@
                                 <label for="nombre">Institución</label>
                                 <div class="input-group">
                                     <i class="fas fa-university icon"></i>
-                                    <input formControlName="institutoProcedencia" type="text" class="form-control"
-                                        id="semestre" placeholder="Institución de procedencia">
+                                    <input formControlName="institutoProcedencia" type="text" class="form-control" id="semestre" placeholder="Institución de procedencia">
                                 </div>
                             </div>
                         </div>
                         <div class="row justify-content-center">
-                            <button class="btn btn-primary btn-block boton-iniciar"
-                                (click)="enviarCorreo()">Registrarse</button>
+                            <button class="btn btn-primary btn-block boton-iniciar" (click)="enviarCorreo()">Registrarse</button>
 
                         </div>
 
