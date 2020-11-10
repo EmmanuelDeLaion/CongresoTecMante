@@ -5,6 +5,7 @@ import { registroI } from '../../modelos/registro.interface';
 import { FormGroup, Validators, FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { correoI } from '../../modelos/correo.interface';
 import swal from 'sweetalert2';
+import { UtilsService } from '../../../assets/util/utils.service'
 
 @Component({
   selector: 'app-registro',
@@ -16,7 +17,7 @@ export class RegistroComponent implements OnInit {
   formRegistro: FormGroup;
   formCorreo:  FormGroup;
     
-  constructor( private _api:ApiService, private formBuilder: FormBuilder ) {
+  constructor( private _api:ApiService, private formBuilder: FormBuilder,private _utilService:UtilsService) {
     this.formRegistro = this.formBuilder.group({
 
       nombreCompleto : ['', [Validators.required]],
@@ -45,8 +46,7 @@ export class RegistroComponent implements OnInit {
   }
 
   registrar () {
-
-
+   
      console.log(this.formRegistro.value);
     this._api.registroByForm(this.formRegistro.value).subscribe(res=> {
       console.log(res);
@@ -55,6 +55,7 @@ export class RegistroComponent implements OnInit {
         title: 'Se ha registrado correctamente'
       });
     this.formRegistro.reset();
+    this._utilService.loading = false;
     },
     err=> {
       console.log(err);
@@ -62,11 +63,14 @@ export class RegistroComponent implements OnInit {
         icon: 'error',
         title: 'Verifique los campos'
       });
+
+      this._utilService.loading = false;
     }
     ); 
   }
 
-  enviarCorreo(){
+  enviarCorreo(){ 
+    this._utilService.loading = true;
     console.log(this.formRegistro.value);
     
     var nombreCompleto = this.formRegistro.value.nombre;
@@ -80,6 +84,7 @@ export class RegistroComponent implements OnInit {
         text: 'Por favor ingrese al correo proporcionado y confirme su registro'
       });
       this.formRegistro.reset();
+      this._utilService.loading = false;
     },
     err=> {
       console.log(err);
@@ -87,6 +92,7 @@ export class RegistroComponent implements OnInit {
         icon: 'error',
         title: 'Verifique los campos'
       });
+      this._utilService.loading = false;
     }
     );
   } 

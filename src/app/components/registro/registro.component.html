@@ -59,26 +59,26 @@
                                 <div class="input-group">
                                     <i class="fas fa-flag icon"></i>
                                     <select formControlName="paisProcedencia" type="email" class="form-control" id="password" placeholder="Pais de origen">
-                                        <option value="Valor1">México</option>
-                                        <option value="Valor2">Argentina</option>
-                                        <option value="Valor3">Bolivia</option>
-                                        <option value="Valor4">Brasil</option>
-                                        <option value="Valor5">Chile</option>
-                                        <option value="Valor6">Colombia</option>
-                                        <option value="Valor7">Costa Rica</option>
-                                        <option value="Valor8">Cuba</option>
-                                        <option value="Valor9">Ecuador</option>
-                                        <option value="Valor10">El Salvador</option>
-                                        <option value="Valor11">Guatemala</option>
-                                        <option value="Valor12">Honduras</option>
-                                        <option value="Valor13">Nicaragua</option>
-                                        <option value="Valor14">Panamá</option>
-                                        <option value="Valor15">Paraguay</option>
-                                        <option value="Valor16">Perú</option>
-                                        <option value="Valor17">Puerto Rico</option>
-                                        <option value="Valor18">República Dominicana</option>
-                                        <option value="Valor19">Uruguay </option>
-                                        <option value="Valor20">Venezuela</option>
+                                        <option value="México">México</option>
+                                        <option value="Argentina">Argentina</option>
+                                        <option value="Bolivia">Bolivia</option>
+                                        <option value="Brasil">Brasil</option>
+                                        <option value="Chile">Chile</option>
+                                        <option value="Colombia">Colombia</option>
+                                        <option value="Costa Rica">Costa Rica</option>
+                                        <option value="Cuba">Cuba</option>
+                                        <option value="Ecuador">Ecuador</option>
+                                        <option value="El Salvador">El Salvador</option>
+                                        <option value="Guatemala">Guatemala</option>
+                                        <option value="Honduras">Honduras</option>
+                                        <option value="Nicaragua">Nicaragua</option>
+                                        <option value="Panamá">Panamá</option>
+                                        <option value="Paraguay">Paraguay</option>
+                                        <option value="Perú">Perú</option>
+                                        <option value="Puerto Rico">Puerto Rico</option>
+                                        <option value="República Dominicana">República Dominicana</option>
+                                        <option value="Uruguay">Uruguay </option>
+                                        <option value="Venezuela">Venezuela</option>
                                     </select>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                             </div>
                         </div>
                         <div class="row justify-content-center">
-                            <button class="btn btn-primary btn-block boton-iniciar" (click)="enviarCorreo()">Registrarse</button>
+                            <button class="btn btn-primary btn-block boton-iniciar"  [disabled]="!formRegistro.valid" (click)="enviarCorreo()">Registrarse</button>
 
                         </div>
 
