@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UtilsService } from '../assets/util/utils.service'
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'CongresoITSM';
 
-
+  constructor(
+    public _utilService: UtilsService
+    ) { }
  
 
 }
