@@ -4,6 +4,8 @@ import { ApiService } from '../../servicios/api/api.service';
 import { contactoI } from '../../modelos/contacto.interface';
 import { FormGroup, Validators, FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import swal from 'sweetalert2';
+import { UtilsService } from '../../../assets/util/utils.service'
+
 
 @Component({
   selector: 'app-contacto',
@@ -14,7 +16,7 @@ export class ContactoComponent implements OnInit {
 
   formContacto: FormGroup;
 
-  constructor( private _api:ApiService, private formBuilder: FormBuilder ) {
+  constructor( private _api:ApiService, private formBuilder: FormBuilder,private _utilService:UtilsService ) {
     this.formContacto = this.formBuilder.group({
       nombre : ['', [Validators.required]],
       correo : ['', [Validators.email]],
@@ -33,9 +35,9 @@ export class ContactoComponent implements OnInit {
    },
    err=> {
      console.log(err);
+ 
    }
    ); 
-
    if(this.formContacto.value.nombre != "" && this.formContacto.value.correo != "" && this.formContacto.value.mensaje != ""){
     swal.fire({
       icon: 'success',

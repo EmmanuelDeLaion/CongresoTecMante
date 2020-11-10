@@ -144,7 +144,7 @@
                             </div>
                         </div>
                         <div class="row justify-content-center">
-                            <button class="btn btn-primary btn-block boton-iniciar" (click)="enviarCorreo()">Registrarse</button>
+                            <button class="btn btn-primary btn-block boton-iniciar"  [disabled]="!formRegistro.valid" (click)="enviarCorreo()">Registrarse</button>
 
                         </div>
 
