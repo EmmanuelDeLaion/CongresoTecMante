@@ -41,7 +41,7 @@ export class ContactoComponent implements OnInit {
    if(this.formContacto.value.nombre != "" && this.formContacto.value.correo != "" && this.formContacto.value.mensaje != ""){
     swal.fire({
       icon: 'success',
-      title: 'Tu duda a sido enviado con exito'
+      title: 'Tu mensaje se ha enviado correctamente'
     });
    }
    else{

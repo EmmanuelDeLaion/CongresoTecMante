@@ -4,9 +4,9 @@
         <div>
             <div>
                 <div class="row justify-content-center">
-                    <img class="imagen-detalles" [src]="conferencistaFiltradoISC.img"   alt="">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoISC.img" alt="">
                 </div>
-                <table  class="table table-light">
+                <table class="table table-light">
                     <thead>
                         <tr>
                             <th>
@@ -16,7 +16,7 @@
                             </th>
                             <td>{{conferencistaFiltradoISC.nombre}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -25,7 +25,7 @@
                             </th>
                             <td>{{conferencistaFiltradoISC.Temas}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -34,7 +34,7 @@
                             </th>
                             <td>{{conferencistaFiltradoISC.tipo}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -43,29 +43,60 @@
                             </th>
                             <td>{{conferencistaFiltradoISC.descripcion}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
                                     Día:
                                 </div>
                             </th>
-                            <td>{{conferencistaFiltradoISC.dia}}</td>
+                            <td><span class="dia"> {{conferencistaFiltradoISC.dia1}} </span>
+
+                            </td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
                                     Hora:
                                 </div>
                             </th>
-                            <td>{{conferencistaFiltradoISC.hora}}</td>
+                            <td>{{conferencistaFiltradoISC.hora1}}</td>
                         </tr>
-                       
+
+                         
+                  
+                        <div class="div">
+
+                        </div>
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Día:
+                                </div>
+                            </th>
+                            <td> <span class="dia"> {{conferencistaFiltradoISC.dia2}} </span> </td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Hora:
+                                </div>
+                            </th>
+                            <td>{{conferencistaFiltradoISC.hora2}}</td>
+                        </tr>
+
+              
+
+                        
+
+
+
                     </thead>
                 </table>
             </div>
-           
+
         </div>
     </div>
 </swal>
@@ -76,9 +107,9 @@
         <div>
             <div>
                 <div class="row justify-content-center">
-                    <img class="imagen-detalles" [src]="conferencistaFiltradoIGE.img"   alt="">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoIGE.img" alt="">
                 </div>
-                <table  class="table table-light">
+                <table class="table table-light">
                     <thead>
                         <tr>
                             <th>
@@ -88,7 +119,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIGE.nombre}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -97,7 +128,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIGE.Temas}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -106,7 +137,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIGE.tipo}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -115,7 +146,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIGE.descripcion}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -124,7 +155,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIGE.dia}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -133,11 +164,22 @@
                             </th>
                             <td>{{conferencistaFiltradoIGE.hora}}</td>
                         </tr>
-                       
+
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Enlace:
+                                </div>
+                            </th>
+                            <td>
+                                <a [href]="conferencistaFiltradoIGE.link">Ir a la conferencia</a>
+                            </td>
+                        </tr>
+
                     </thead>
                 </table>
             </div>
-           
+
         </div>
     </div>
 </swal>
@@ -148,9 +190,9 @@
         <div>
             <div>
                 <div class="row justify-content-center">
-                    <img class="imagen-detalles" [src]="conferencistaFiltradoIND.img"   alt="">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoIND.img" alt="">
                 </div>
-                <table  class="table table-light">
+                <table class="table table-light">
                     <thead>
                         <tr>
                             <th>
@@ -160,7 +202,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIND.nombre}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -169,7 +211,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIND.Temas}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -178,7 +220,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIND.tipo}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -187,7 +229,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIND.descripcion}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -196,7 +238,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIND.dia}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -205,11 +247,11 @@
                             </th>
                             <td>{{conferencistaFiltradoIND.hora}}</td>
                         </tr>
-                       
+
                     </thead>
                 </table>
             </div>
-           
+
         </div>
     </div>
 </swal>
@@ -221,9 +263,9 @@
         <div>
             <div>
                 <div class="row justify-content-center">
-                    <img class="imagen-detalles" [src]="conferencistaFiltradoIQ.img"   alt="">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoIQ.img" alt="">
                 </div>
-                <table  class="table table-light">
+                <table class="table table-light">
                     <thead>
                         <tr>
                             <th>
@@ -233,7 +275,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIQ.nombre}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -242,7 +284,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIQ.Temas}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -251,7 +293,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIQ.tipo}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -260,7 +302,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIQ.descripcion}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -269,7 +311,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIQ.dia}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -278,11 +320,11 @@
                             </th>
                             <td>{{conferencistaFiltradoIQ.hora}}</td>
                         </tr>
-                       
+
                     </thead>
                 </table>
             </div>
-           
+
         </div>
     </div>
 </swal>
@@ -294,9 +336,9 @@
         <div>
             <div>
                 <div class="row justify-content-center">
-                    <img class="imagen-detalles" [src]="conferencistaFiltradoIIAS.img"   alt="">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoIIAS.img" alt="">
                 </div>
-                <table  class="table table-light">
+                <table class="table table-light">
                     <thead>
                         <tr>
                             <th>
@@ -306,7 +348,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIIAS.nombre}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -315,7 +357,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIIAS.Temas}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -324,7 +366,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIIAS.tipo}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -333,7 +375,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIIAS.descripcion}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -342,7 +384,7 @@
                             </th>
                             <td>{{conferencistaFiltradoIIAS.dia}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -351,25 +393,25 @@
                             </th>
                             <td>{{conferencistaFiltradoIIAS.hora}}</td>
                         </tr>
-                       
+
                     </thead>
                 </table>
             </div>
-           
+
         </div>
     </div>
 </swal>
 
 
-<!-- iias -->
+<!-- mag -->
 <swal class="swal-wide" #swalidMag title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
     <div *swalPortal>
         <div>
             <div>
                 <div class="row justify-content-center">
-                    <img class="imagen-detalles" [src]="conferencistaFiltradoMag.img"   alt="">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoMag.img" alt="">
                 </div>
-                <table  class="table table-light">
+                <table class="table table-light">
                     <thead>
                         <tr>
                             <th>
@@ -379,7 +421,7 @@
                             </th>
                             <td>{{conferencistaFiltradoMag.nombre}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -388,7 +430,7 @@
                             </th>
                             <td>{{conferencistaFiltradoMag.Temas}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -397,7 +439,7 @@
                             </th>
                             <td>{{conferencistaFiltradoMag.tipo}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -406,7 +448,7 @@
                             </th>
                             <td>{{conferencistaFiltradoMag.descripcion}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -415,7 +457,7 @@
                             </th>
                             <td>{{conferencistaFiltradoMag.dia}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -424,11 +466,23 @@
                             </th>
                             <td>{{conferencistaFiltradoMag.hora}}</td>
                         </tr>
-                       
+
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Enlace:
+                                </div>
+                            </th>
+                            <td>
+                                <a [href]="conferencistaFiltradoMag.link">Ir a la conferencia</a>
+                            </td>
+                        </tr>
+
+
                     </thead>
                 </table>
             </div>
-           
+
         </div>
     </div>
 </swal>
@@ -441,9 +495,9 @@
         <div>
             <div>
                 <div class="row justify-content-center">
-                    <img class="imagen-detalles" [src]="conferencistaFiltradoPan.img"   alt="">
+                    <img class="imagen-detalles" [src]="conferencistaFiltradoPan.img" alt="">
                 </div>
-                <table  class="table table-light">
+                <table class="table table-light">
                     <thead>
                         <tr>
                             <th>
@@ -455,8 +509,8 @@
                                 {{conferencistaFiltradoPan.panelista}}
                             </td>
                         </tr>
-    
-             
+
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -476,7 +530,7 @@
                                 <a [href]="conferencistaFiltradoPan.link">Ir a la conferencia</a>
                             </td>
                         </tr>
-     
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -485,7 +539,7 @@
                             </th>
                             <td>{{conferencistaFiltradoPan.dia}}</td>
                         </tr>
-    
+
                         <tr>
                             <th>
                                 <div class="row">
@@ -494,11 +548,11 @@
                             </th>
                             <td>{{conferencistaFiltradoPan.hora}}</td>
                         </tr>
-                       
+
                     </thead>
                 </table>
             </div>
-           
+
         </div>
     </div>
 </swal>
@@ -550,8 +604,11 @@
                                         <h5 class="card-title">{{conferencista.nombre}}</h5>
                                         <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
                                             {{conferencista.Temas}}</p>
+
+                                        <P><span class="orgullo"> {{conferencista.insignia}} </span></P>
                                     </div>
-                                    <button class="detalles btn ver" (click)="mostrarDetallesISC($event,conferencista.id)">Detalles</button>
+                                    <button class="detalles btn ver"
+                                        (click)="mostrarDetallesISC($event,conferencista.id)">Detalles</button>
                                 </div>
 
 
@@ -582,7 +639,8 @@
                                         <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
                                             {{conferencista.Temas}}</p>
                                     </div>
-                                    <button class="detalles btn ver" (click)="mostrarDetallesIGE($event,conferencista.id)">Detalles</button>
+                                    <button class="detalles btn ver"
+                                        (click)="mostrarDetallesIGE($event,conferencista.id)">Detalles</button>
 
                                 </div>
                             </div>
@@ -609,7 +667,8 @@
                                         <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
                                             {{conferencista.Temas}}</p>
                                     </div>
-                                    <button class="detalles btn ver" (click)="mostrarDetallesIND($event,conferencista.id)">Detalles</button>
+                                    <button class="detalles btn ver"
+                                        (click)="mostrarDetallesIND($event,conferencista.id)">Detalles</button>
 
                                 </div>
                             </div>
@@ -636,7 +695,8 @@
                                         <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
                                             {{conferencista.Temas}}</p>
                                     </div>
-                                    <button class="detalles btn ver" (click)="mostrarDetallesIIAS($event,conferencista.id)">Detalles</button>
+                                    <button class="detalles btn ver"
+                                        (click)="mostrarDetallesIIAS($event,conferencista.id)">Detalles</button>
 
                                 </div>
                             </div>
@@ -663,7 +723,8 @@
                                         <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
                                             {{conferencista.Temas}}</p>
                                     </div>
-                                    <button class="detalles btn ver" (click)="mostrarDetallesIQ($event,conferencista.id)">Detalles</button>
+                                    <button class="detalles btn ver"
+                                        (click)="mostrarDetallesIQ($event,conferencista.id)">Detalles</button>
 
 
                                 </div>
@@ -672,8 +733,8 @@
                         </div>
                     </div>
 
-                     <!-- Carusel magistrales -->
-                     <div class="carousel-item">
+                    <!-- Carusel magistrales -->
+                    <div class="carousel-item">
                         <div class="row justify-content-center" style="background-color: white;">
                             <div class="col-12">
                                 <h2 class="text-center">Magistral</h2>
@@ -692,7 +753,8 @@
                                         <p class="card-text"> <span class="tipo"> {{conferencista.tipo}}: </span>
                                             {{conferencista.Temas}}</p>
                                     </div>
-                                    <button class="detalles btn ver" (click)="mostrarDetallesMag($event,conferencista.id)">Detalles</button>
+                                    <button class="detalles btn ver"
+                                        (click)="mostrarDetallesMag($event,conferencista.id)">Detalles</button>
 
 
                                 </div>
@@ -724,7 +786,8 @@
                                         <h5 class="card-title">{{conferencista.panelista}}</h5>
                                         <p class="card-text"> <span class="tipo"> {{conferencista.tipo}} </span></p>
                                     </div>
-                                    <button class="detalles btn ver" (click)="mostrarDetallesPan($event,conferencista.id)">Detalles</button>
+                                    <button class="detalles btn ver"
+                                        (click)="mostrarDetallesPan($event,conferencista.id)">Detalles</button>
 
                                 </div>
                             </div>

@@ -108,3 +108,28 @@ img:hover {
     width: 150px;
     border-radius: 100px;
 }
+
+.orgullo{
+    font-size: 12px;
+    font-weight: 300;
+    color:rgb(70, 70, 70);
+}
+
+.dia{
+    color: #41B4E5;
+}
+
+.enlace{
+    background: #fff;
+    color: #41B4E5;
+    border: 1px solid #41B4E5;
+    border-radius: 5px;
+}
+
+.enlace:hover{
+    background: #41B4E5;
+    color: #fff;
+    border: 1px solid #41B4E5;
+    text-decoration: none;
+    
+}
