@@ -1,6 +1,6 @@
  
 .objetivo{
-    background-image: url(/assets/images/portada-objetivo.png);
+    background-image: url(../../../assets/images/portada-objetivo.png);
     background-size: cover;
     padding: 70px;
 }
