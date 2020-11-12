@@ -49,13 +49,13 @@ export class ConferencistasComponent implements OnInit {
 
   ngOnInit(): void {
     forkJoin({
-      confIge: this.http.get('../../../assets/data/conferencistas-ige.json'),
-      confInd: this.http.get('../../../assets/data/conferencistas-ind.json'),
-      confIias: this.http.get('../../../assets/data/conferencistas-iias.json'),
-      confIq: this.http.get('../../../assets/data/conferencistas-iq.json'),
-      confIsc: this.http.get('../../../assets/data/conferencistas-isc.json'),
-      confMag: this.http.get('../../../assets/data/conferencistas-magistrales.json'),
-      confPan: this.http.get('../../../assets/data/conferencistas-expertos.json')
+      confIge: this.http.get('assets/data/conferencistas-ige.json'),
+      confInd: this.http.get('assets/data/conferencistas-ind.json'),
+      confIias: this.http.get('assets/data/conferencistas-iias.json'),
+      confIq: this.http.get('assets/data/conferencistas-iq.json'),
+      confIsc: this.http.get('assets/data/conferencistas-isc.json'),
+      confMag: this.http.get('assets/data/conferencistas-magistrales.json'),
+      confPan: this.http.get('assets/data/conferencistas-expertos.json')
 
     }).subscribe(data => {
       this.conferensistasIGE = data.confIge;
