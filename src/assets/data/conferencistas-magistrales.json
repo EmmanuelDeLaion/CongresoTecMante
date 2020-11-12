@@ -8,7 +8,8 @@
         "carrera": "ISC",
         "dia": "19 de Noviembre",
         "hora": "10:00",
-        "img": "../../../assets/images/conferencistas/cindy-g.png",
+        "link": "https://www.youtube.com/watch?v=Xm4CTZ5JlEI",
+        "img": "assets/images/conferencistas/cindy-g.jpg",
         "id": "0"
     },
     {
@@ -20,7 +21,8 @@
         "carrera": "ISC",
         "dia": "19 de Noviembre",
         "hora": "11:30",
-        "img": "../../../assets/images/conferencistas/gabriela-a.png",
+        "link": "https://www.youtube.com/watch?v=Xm4CTZ5JlEI",
+        "img": "assets/images/conferencistas/gabriela-a.jpg",
         "id": "1"
     },
     {
@@ -32,7 +34,8 @@
         "carrera": "ISC",
         "dia": "19 de Noviembre",
         "hora": "11:30",
-        "img": "../../../assets/images/conferencistas/adriana-m.png",
+        "link": "https://www.youtube.com/watch?v=Xm4CTZ5JlEI",
+        "img": "assets/images/conferencistas/adriana-m.jpg",
         "id": "2"
     }
 ]

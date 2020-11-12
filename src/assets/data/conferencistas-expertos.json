@@ -7,7 +7,7 @@
         "carrera": "IGE",
         "dia": "18 de Noviembre",
         "hora": "10:00 a 11:00",
-        "img": "../../../assets/images/conferencistas/leidi-margarita.png",
+        "img": "assets/images/conferencistas/leidi-margarita.jpg",
         "link": "https://www.youtube.com/watch?v=HJaQKGPDEeM",
         "id": "0"
     },
@@ -20,7 +20,7 @@
         "carrera": "IGE",
         "dia": "18 de Noviembre",
         "hora": "10:00 a 11:00",
-        "img": "../../../assets/images/conferencistas/joel-antonio.png",
+        "img": "assets/images/conferencistas/joel-antonio.jpg",
         "link": "https://www.youtube.com/watch?v=HJaQKGPDEeM",
         "id": "1"
     },
@@ -33,7 +33,7 @@
         "carrera": "IGE",
         "dia": "18 de Noviembre",
         "hora": "10:00 a 11:00",
-        "img": "../../../assets/images/conferencistas/gabriel-mansenes.png",
+        "img": "assets/images/conferencistas/gabriel-mansenes.jpg",
         "link": "https://www.youtube.com/watch?v=HJaQKGPDEeM",
         "id": "2"
     },
@@ -42,7 +42,7 @@
 
 
     {
-        "panelista": "Ing. Milka Isura Sierra Reynoso",
+        "panelista": "Ing. Milka Isaura Sierra Reynoso",
         "tipo": "Conferencia",
         "descripcion": "Los expertos hablan",
         "inicial": "M",
@@ -50,7 +50,7 @@
         "carrera": "IGE",
         "dia": "18 de Noviembre",
         "hora": "12:00 a 13:00",
-        "img": "../../../assets/images/conferencistas/milka.jpg",
+        "img": "assets/images/conferencistas/milka.jpg",
         "link": "https://www.youtube.com/watch?v=bAf58HpxfSU",
         "id": "3"
     },
@@ -64,7 +64,7 @@
         "carrera": "IGE",
         "dia": "18 de Noviembre",
         "hora": "12:00 a 13:00",
-        "img": "../../../assets/images/conferencistas/diego-alfonso.jpg",
+        "img": "assets/images/conferencistas/diego-alfonso.jpg",
         "link": "https://www.youtube.com/watch?v=bAf58HpxfSU",
         "id": "4"
     },
@@ -127,7 +127,7 @@
         "dia": "18 de Noviembre",
         "hora": "16:30 a 17:30",
         "img": "none",
-        "link": "hhttps://www.youtube.com/watch?v=1dwXZkviqi0",
+        "link": "https://www.youtube.com/watch?v=1dwXZkviqi0",
         "id": "8"
     },
 
