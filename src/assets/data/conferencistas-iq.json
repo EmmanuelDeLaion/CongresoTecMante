@@ -1,4 +1,5 @@
-[{
+[
+    {
         "nombre": "Dr. Ignacio González",
         "tipo": "Conferencia",
         "Temas": "La Química nos une",
@@ -7,7 +8,7 @@
         "carrera": "IQ",
         "dia": "16 de Noviembre",
         "hora": "10:00 a 11:00",
-        "img": "none",
+        "img": "assets/images/conferencistas/ignacio.jpg",
         "id": "0"
     },
     {
@@ -19,9 +20,8 @@
         "carrera": "IQ",
         "dia": "16 de Noviembre",
         "hora": "11:20 a 12:20",
-        "img": "none",
+        "img": "assets/images/conferencistas/damian.jpg",
         "id": "1"
-
     },
     {
         "nombre": "Dr. C. Jonathan Pérez Meseguer",
@@ -32,9 +32,20 @@
         "carrera": "IQ",
         "dia": "16 de Noviembre",
         "hora": "13:00 a 14:00",
-        "img": "none",
+        "img": "assets/images/conferencistas/jonathan.jpg",
         "id": "2"
-
+    },
+    {
+        "nombre": "Dr. David Arturo Silva Mares",
+        "tipo": "Conferencia",
+        "Temas": "Elaboración de Cerveza Casera",
+        "descripcion": "Departamento de Química Analítica",
+        "inicial": "D",
+        "carrera": "IQ",
+        "dia": "16 de Noviembre",
+        "hora": "14:00 a 15:30",
+        "img": "assets/images/conferencistas/silva.jpg",
+        "id": "5"
     },
     {
         "nombre": "M.C. Elida Lee Bazaldua",
@@ -45,12 +56,23 @@
         "carrera": "IQ",
         "dia": "17 de Noviembre",
         "hora": "9:00 a 10:00",
-        "img": "none",
+        "img": "assets/images/conferencistas/elida.jpg",
         "id": "3"
-
     },
     {
-        "nombre": "MC Belém Lorelay López González ",
+        "nombre": "QFB. Juan Escutia Garmendia",
+        "tipo": "Conferencia",
+        "Temas": "Los Métodos de Análisis Instrumental como complemento de la Química Analítica",
+        "descripcion": "Profesor Investigador Universidad del Noreste Campus Tampico",
+        "inicial": "J",
+        "carrera": "IND",
+        "dia": "17 de Noviembre",
+        "hora": "12:00 a 13:00",
+        "img": "assets/images/conferencistas/escutia.jpg",
+        "id": "6"
+    },
+    {
+        "nombre": "MC Belém Lorelay López González",
         "tipo": "Conferencia",
         "Temas": "Polihidroxialcanoatos, ¿El sustituto ideal de los plásticos?",
         "descripcion": "Poliésteres lineales producidos en la naturaleza por la acción de las bacterias por fermentación del azúcar o lípidos. ",
@@ -58,9 +80,19 @@
         "carrera": "IQ",
         "dia": "17 de Noviembre",
         "hora": "13:00 a 14:00",
-        "img": "none",
+        "img": "assets/images/conferencistas/belem.jpg",
         "id": "4"
-
+    },
+    {
+        "nombre": "Lic. José Manuel Vizcaíno Torres",
+        "tipo": "Conferencia",
+        "Temas": "La QUIMICA detrás de la Cerveza",
+        "descripcion": "Dueño y Brewmaster Cervecería Refrán",
+        "inicial": "J",
+        "carrera": "IQ",
+        "dia": "17 de Noviembre",
+        "hora": "15:15 a 16:15",
+        "img": "assets/images/conferencistas/vizcaino.jpg",
+        "id": "4"
     }
-
 ]

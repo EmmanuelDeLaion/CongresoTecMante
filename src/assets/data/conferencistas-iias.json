@@ -1,95 +1,93 @@
 [{
-        "nombre": "Dr. Edgar Pérez Arriaga",
-        "tipo": "Conferencia",
-        "Temas": "La gestión ambiental de los residuos en las actividades agropecuarias",
-        "descripcion": " Profesor investigador del Instituto Tecnológico de Cd.Victoria",
-        "inicial": "E",
-        "carrera": "IIAS",
-        "dia": "16 de Noviembre",
-        "hora": "9:30 am a 10:20 am",
-        "img": "none",
-        "id": "0"
-    },
-    {
-        "nombre": "Jorge Luis Vega Chávez",
-        "tipo": "Conferencia",
-        "Temas": "Biología de tamarixia triozae parasitoide de bactericera cockerelli",
-        "descripcion": " Instituto Tecnológico de Cd. Victoria.",
-        "inicial": "J",
-        "carrera": "IIAS",
-        "dia": "16 de Noviembre",
-        "hora": "11:30 am a 12:30 pm",
-        "img": "none",
-        "id": "1"
-    },
-    {
-        "nombre": "M.C Ana Karen Serrano Domínguez",
-        "tipo": "Conferencia",
-        "Temas": "Enemigos naturales (Insecta: Hymenoptera) del gusano cogollero Spodoptera frugiperda (J.E. Smith) (Lepidoptera: Noctuidae)",
-        "descripcion": "none",
-        "inicial": "A",
-        "carrera": "IIAS",
-        "dia": "16 de Noviembre",
-        "hora": "12:45 a 13:45",
-        "img": "none",
-        "id": "2"
-    },
-    {
-        "nombre": "M.C. María Guadalupe Cepeda Puente",
-        "tipo": "Conferencia",
-        "Temas": "Experiencias en Campos Experimentales de Maíz Híbrido y GMO's. Aptitudes y Competencias Corporativas",
-        "descripcion": "District Sales Manager CORTEVA AGRISCIENCE",
-        "inicial": "M",
-        "carrera": "IIAS",
-        "dia": "17 de Noviembre",
-        "hora": "10:00 a 11:00",
-        "img": "none",
-        "id": "3"
-    },
-    {
-        "nombre": "Dr. Rodolfo Garza Flores ",
-        "tipo": "Conferencia",
-        "Temas": "Transversalidad ambiental de la agenda 2030 para el desarrollo sustentable",
-        "descripcion": "Prof. Investigador Universidad Autónoma de Tamaulipas-Facultad de Ingeniería Arturo Narro Siller",
-        "inicial": "R",
-        "carrera": "IIAS",
-        "dia": "17 de Noviembre",
-        "hora": "14:00 a 15:00",
-        "img": "none",
-        "id": "4"
-    },
-    {
-        "nombre": "Dr. Jorge Ariel Torres Acosta",
-        "tipo": "Conferencia",
-        "Temas": "Chile Piquín: Aspectos ecológicos hacia su manejo integral, diversidad fitoquímica y productos derivados",
-        "descripcion": "Profesor de Carrera del Instituto de Ecología Aplicada de la Universidad Autónoma de Tamaulipas",
-        "inicial": "J",
-        "carrera": "IIAS",
-        "dia": "17 de Noviembre",
-        "hora": "11:15 a 12:15",
-        "img": "none",
-        "id": "5"
-    },
-    {
-        "nombre": "Ing. Rubén Esquivel Mendiola",
-        "tipo": "Conferencia",
-        "inicial": "J",
-        "carrera": "IIAS",
-        "dia": "17 de Noviembre",
-        "hora": "12:30 a 13:30",
-        "img": "none",
-        "id": "6"
-    },
-    {
-        "nombre": "Dr. Carlos de los Ríos",
-        "tipo": "Conferencia",
-        "inicial": "J",
-        "carrera": "IIAS",
-        "dia": "16 de Noviembre",
-        "hora": "14:00 a 15:00",
-        "img": "none",
-        "id": "7"
-    }
-
-
+    "nombre": "Dr. Edgar Pérez Arriaga",
+    "tipo": "Conferencia",
+    "Temas": "La gestión ambiental de los residuos en las actividades agropecuarias",
+    "descripcion": "Profesor investigador del Instituto Tecnológico de Cd.Victoria",
+    "inicial": "E",
+    "carrera": "IIAS",
+    "dia": "16 de Noviembre",
+    "hora": "9:30 am a 10:20 am",
+    "img": "assets/images/conferencistas/edgar.jpg",
+    "id": "0"
+},
+{
+    "nombre": "Jorge Luis Vega Chávez",
+    "tipo": "Conferencia",
+    "Temas": "Biología de tamarixia triozae parasitoide de bactericera cockerelli",
+    "descripcion": "Instituto Tecnológico de Cd. Victoria.",
+    "inicial": "J",
+    "carrera": "IIAS",
+    "dia": "16 de Noviembre",
+    "hora": "11:30 am a 12:30 pm",
+    "img": "assets/images/conferencistas/vega.jpg",
+    "id": "1"
+},
+{
+    "nombre": "M.C Ana Karen Serrano Domínguez",
+    "tipo": "Conferencia",
+    "Temas": "Enemigos naturales (Insecta: Hymenoptera) del gusano cogollero Spodoptera frugiperda (J.E. Smith) (Lepidoptera: Noctuidae)",
+    "descripcion": "none",
+    "inicial": "A",
+    "carrera": "IIAS",
+    "dia": "16 de Noviembre",
+    "hora": "12:45 a 13:45",
+    "img": "assets/images/conferencistas/karen.jpg",
+    "id": "2"
+},
+{
+    "nombre": "M.C. María Guadalupe Cepeda Puente",
+    "tipo": "Conferencia",
+    "Temas": "Experiencias en Campos Experimentales de Maíz Híbrido y GMO's. Aptitudes y Competencias Corporativas",
+    "descripcion": "District Sales Manager CORTEVA AGRISCIENCE",
+    "inicial": "M",
+    "carrera": "IIAS",
+    "dia": "17 de Noviembre",
+    "hora": "10:00 a 11:00",
+    "img": "assets/images/conferencistas/guadalupe.jpg",
+    "id": "3"
+},
+{
+    "nombre": "Dr. Rodolfo Garza Flores ",
+    "tipo": "Conferencia",
+    "Temas": "Transversalidad ambiental de la agenda 2030 para el desarrollo sustentable",
+    "descripcion": "Prof. Investigador Universidad Autónoma de Tamaulipas-Facultad de Ingeniería Arturo Narro Siller",
+    "inicial": "R",
+    "carrera": "IIAS",
+    "dia": "17 de Noviembre",
+    "hora": "14:00 a 15:00",
+    "img": "none",
+    "id": "4"
+},
+{
+    "nombre": "Dr. Jorge Ariel Torres Acosta",
+    "tipo": "Conferencia",
+    "Temas": "Chile Piquín: Aspectos ecológicos hacia su manejo integral, diversidad fitoquímica y productos derivados",
+    "descripcion": "Profesor de Carrera del Instituto de Ecología Aplicada de la Universidad Autónoma de Tamaulipas",
+    "inicial": "J",
+    "carrera": "IIAS",
+    "dia": "17 de Noviembre",
+    "hora": "11:15 a 12:15",
+    "img": "assets/images/conferencistas/jorge-ariel.jpg",
+    "id": "5"
+},
+{
+    "nombre": "Ing. Rubén Esquivel Mendiola",
+    "tipo": "Conferencia",
+    "inicial": "J",
+    "carrera": "IIAS",
+    "dia": "17 de Noviembre",
+    "hora": "12:30 a 13:30",
+    "img": "none",
+    "id": "6"
+},
+{
+    "nombre": "Dr. Carlos de los Ríos",
+    "tipo": "Conferencia",
+    "inicial": "J",
+    "carrera": "IIAS",
+    "dia": "16 de Noviembre",
+    "hora": "14:00 a 15:00",
+    "img": "none",
+    "id": "7"
+}
 ]
