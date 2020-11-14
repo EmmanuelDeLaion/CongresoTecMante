@@ -1,149 +1,163 @@
 [{
-        "panelista": "IGE Leidi Margarita Torres Zamarrón",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "L",
-        "Temas": "PANEL CON EXPERTOS EN LA CONTRATACIÓN DE RECIÉN EGRESADOS",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "10:00 a 11:00",
-        "img": "assets/images/conferencistas/leidi-margarita.jpg",
-        "link": "https://www.youtube.com/watch?v=HJaQKGPDEeM",
-        "id": "0"
-    },
-    {
-        "panelista": " IGE Joel Antonio Martín Hernández",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "J",
-        "Temas": "PANEL CON EXPERTOS EN LA CONTRATACIÓN DE RECIÉN EGRESADOS",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "10:00 a 11:00",
-        "img": "assets/images/conferencistas/joel-antonio.jpg",
-        "link": "https://www.youtube.com/watch?v=HJaQKGPDEeM",
-        "id": "1"
-    },
-    {
-        "panelista": " IGE Gabriel Manasénes Torres Martínez",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "S",
-        "Temas": "Panel con expertos en la contratación de recién egresados",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "10:00 a 11:00",
-        "img": "assets/images/conferencistas/gabriel-mansenes.jpg",
-        "link": "https://www.youtube.com/watch?v=HJaQKGPDEeM",
-        "id": "2"
-    },
+    "panelista": "IGE Leidi Margarita Torres Zamarrón",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "L",
+    "Temas": "PANEL CON EXPERTOS EN LA CONTRATACIÓN DE RECIÉN EGRESADOS",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "10:00 a 11:00",
+    "img": "assets/images/conferencistas/leidi-margarita.jpg",
+    "link": "https://www.youtube.com/watch?v=HJaQKGPDEeM",
+    "id": "0"
+},
+{
+    "panelista": "IGE Joel Antonio Martín Hernández",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "J",
+    "Temas": "PANEL CON EXPERTOS EN LA CONTRATACIÓN DE RECIÉN EGRESADOS",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "10:00 a 11:00",
+    "img": "assets/images/conferencistas/joel-antonio.jpg",
+    "link": "https://www.youtube.com/watch?v=HJaQKGPDEeM",
+    "id": "1"
+},
+{
+    "panelista": "IGE Gabriel Manasénes Torres Martínez",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "S",
+    "Temas": "Panel con expertos en la contratación de recién egresados",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "10:00 a 11:00",
+    "img": "assets/images/conferencistas/gabriel-mansenes.jpg",
+    "link": "https://www.youtube.com/watch?v=HJaQKGPDEeM",
+    "id": "2"
+},
 
 
 
 
-    {
-        "panelista": "Ing. Milka Isaura Sierra Reynoso",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "M",
-        "Temas": "Panel con expertos en la contratación de recién egresados",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "12:00 a 13:00",
-        "img": "assets/images/conferencistas/milka.jpg",
-        "link": "https://www.youtube.com/watch?v=bAf58HpxfSU",
-        "id": "3"
-    },
-
-    {
-        "panelista": "Ing. Diego Alfonso Serna Rivera",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "M",
-        "Temas": "Panel con expertos en la contratación de recién egresados",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "12:00 a 13:00",
-        "img": "assets/images/conferencistas/diego-alfonso.jpg",
-        "link": "https://www.youtube.com/watch?v=bAf58HpxfSU",
-        "id": "4"
-    },
-
-
-
-
-    {
-        "panelista": "Salvador Segura, colaborador en OMEGAUP",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "S",
-        "Temas": "Panel con expertos en la contratación de recién egresados",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "13:00 a 14:00",
-        "img": "none",
-        "link": "https://www.youtube.com/watch?v=bAf58HpxfSU",
-        "id": "5"
-    },
+{
+    "panelista": "Ing. Milka Isaura Sierra Reynoso",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "M",
+    "Temas": "Panel con expertos en la contratación de recién egresados",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "12:00 a 13:00",
+    "img": "assets/images/conferencistas/milka.jpg",
+    "link": "https://www.youtube.com/watch?v=bAf58HpxfSU",
+    "id": "3"
+},
+{
+    "panelista": "Ing. Diego Alfonso Serna Rivera",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "M",
+    "Temas": "Panel con expertos en la contratación de recién egresados",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "12:00 a 13:00",
+    "img": "assets/images/conferencistas/diego-alfonso.jpg",
+    "link": "https://www.youtube.com/watch?v=bAf58HpxfSU",
+    "id": "4"
+},
 
 
 
 
-    {
-        "panelista": "Grupo Pantaleon",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "GP",
-        "Temas": "Panel con expertos en la contratación de recién egresados",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "14:10 a 14:50 y 15:30 a 16:30",
-        "img": "none",
-        "link": "https://www.youtube.com/watch?v=PUMDVXu1kK0",
-        "id": "6"
-    },
+{
+    "panelista": "Salvador Segura, colaborador en OMEGAUP",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "S",
+    "Temas": "Panel con expertos en la contratación de recién egresados",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "13:00 a 14:00",
+    "img": "none",
+    "link": "https://www.youtube.com/watch?v=bAf58HpxfSU",
+    "id": "5"
+},
 
-    {
-        "panelista": "Lic. Luis Bueno Torio, Asociación Nacional de Industriales Arroceros",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "L",
-        "Temas": "Panel con expertos en la contratación de recién egresados",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "14:50 a 15:30",
-        "img": "none",
-        "link": "https://www.youtube.com/watch?v=PUMDVXu1kK0",
-        "id": "7"
-    },
 
-    {
-        "panelista": "Lic. Laura Gómez, Mabe SLP",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "L",
-        "Temas": "Panel con expertos en la contratación de recién egresados",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "16:30 a 17:30",
-        "img": "none",
-        "link": "https://www.youtube.com/watch?v=1dwXZkviqi0",
-        "id": "8"
-    },
 
-    {
-        "panelista": "Ing. Juan Miguel Rubio Elosúa, Productos Xico",
-        "tipo": "Conferencia",
-        "descripcion": "Los expertos hablan",
-        "inicial": "J",
-        "Temas": "Panel con expertos en la contratación de recién egresados",
-        "carrera": "IGE",
-        "dia": "18 de Noviembre",
-        "hora": "17:30 a 18:30",
-        "img": "none",
-        "link": "https://www.youtube.com/watch?v=sDQT3kfewiM",
-        "id": "9"
-    }
+
+{
+    "panelista": "Grupo Pantaleon",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "GP",
+    "Temas": "Panel con expertos en la contratación de recién egresados",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "14:10 a 14:50 y 15:30 a 16:30",
+    "img": "assets/images/conferencistas/pantaleon.jpg",
+    "link": "https://www.youtube.com/watch?v=PUMDVXu1kK0",
+    "id": "6"
+},
+
+{
+    "panelista": "Lic. Luis Bueno Torio, Asociación Nacional de Industriales Arroceros",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "L",
+    "Temas": "Panel con expertos en la contratación de recién egresados",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "14:50 a 15:30",
+    "img": "assets/images/conferencistas/bueno.jpg",
+    "link": "https://www.youtube.com/watch?v=PUMDVXu1kK0",
+    "id": "7"
+},
+{
+    "nombre": "M.C. María Guadalupe Cepeda Puente",
+    "tipo": "Conferencia",
+    "Temas": "Aptitudes y Competencias Corporativas",
+    "descripcion": "District Sales Manager CORTEVA AGRISCIENCE",
+    "inicial": "M",
+    "carrera": "IIAS",
+    "dia": "18 de Noviembre",
+    "hora": "15:30 a 16:10",
+    "img": "assets/images/conferencistas/guadalupe.jpg",
+    "link": "https://meet.google.com/eez-qzxp-eqv",
+    "id": "10"
+},
+{
+    "panelista": "Lic. Laura Gómez, Mabe SLP",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "L",
+    "Temas": "Panel con expertos en la contratación de recién egresados",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "16:30 a 17:30",
+    "img": "none",
+    "link": "https://www.youtube.com/watch?v=1dwXZkviqi0",
+    "id": "8"
+},
+
+
+
+
+{
+    "panelista": "Ing. Juan Miguel Rubio Elosúa, Productos Xico",
+    "tipo": "Conferencia",
+    "descripcion": "Los expertos hablan",
+    "inicial": "J",
+    "Temas": "Panel con expertos en la contratación de recién egresados",
+    "carrera": "IGE",
+    "dia": "18 de Noviembre",
+    "hora": "17:30 a 18:30",
+    "img": "none",
+    "link": "https://www.youtube.com/watch?v=sDQT3kfewiM",
+    "id": "9"
+}
 
 
 ]
