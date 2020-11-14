@@ -45,7 +45,7 @@
         "dia": "16 de Noviembre",
         "hora": "14:00 a 15:30",
         "img": "assets/images/conferencistas/silva.jpg",
-        "id": "5"
+        "id": "3"
     },
     {
         "nombre": "M.C. Elida Lee Bazaldua",
@@ -57,7 +57,7 @@
         "dia": "17 de Noviembre",
         "hora": "9:00 a 10:00",
         "img": "assets/images/conferencistas/elida.jpg",
-        "id": "3"
+        "id": "4"
     },
     {
         "nombre": "QFB. Juan Escutia Garmendia",
@@ -69,7 +69,7 @@
         "dia": "17 de Noviembre",
         "hora": "12:00 a 13:00",
         "img": "assets/images/conferencistas/escutia.jpg",
-        "id": "6"
+        "id": "5"
     },
     {
         "nombre": "MC Belém Lorelay López González",
@@ -81,7 +81,7 @@
         "dia": "17 de Noviembre",
         "hora": "13:00 a 14:00",
         "img": "assets/images/conferencistas/belem.jpg",
-        "id": "4"
+        "id": "6"
     },
     {
         "nombre": "Lic. José Manuel Vizcaíno Torres",
@@ -93,6 +93,6 @@
         "dia": "17 de Noviembre",
         "hora": "15:15 a 16:15",
         "img": "assets/images/conferencistas/vizcaino.jpg",
-        "id": "4"
+        "id": "7"
     }
 ]
