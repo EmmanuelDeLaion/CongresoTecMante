@@ -12,7 +12,7 @@
     "id": "0"
 },
 {
-    "panelista": "IGE Joel Antonio Martín Hernández",
+    "panelista": "IGE Joel Antonio Martínez Hernández",
     "tipo": "Conferencia",
     "descripcion": "Los expertos hablan",
     "inicial": "J",
@@ -116,7 +116,7 @@
     "id": "7"
 },
 {
-    "nombre": "M.C. María Guadalupe Cepeda Puente",
+    "panelista": "M.C. María Guadalupe Cepeda Puente",
     "tipo": "Conferencia",
     "Temas": "Aptitudes y Competencias Corporativas",
     "descripcion": "District Sales Manager CORTEVA AGRISCIENCE",
@@ -126,7 +126,7 @@
     "hora": "15:30 a 16:10",
     "img": "assets/images/conferencistas/guadalupe.jpg",
     "link": "https://meet.google.com/eez-qzxp-eqv",
-    "id": "10"
+    "id": "8"
 },
 {
     "panelista": "Lic. Laura Gómez, Mabe SLP",
@@ -139,7 +139,7 @@
     "hora": "16:30 a 17:30",
     "img": "none",
     "link": "https://www.youtube.com/watch?v=1dwXZkviqi0",
-    "id": "8"
+    "id": "9"
 },
 
 
@@ -156,7 +156,7 @@
     "hora": "17:30 a 18:30",
     "img": "none",
     "link": "https://www.youtube.com/watch?v=sDQT3kfewiM",
-    "id": "9"
+    "id": "10"
 }
 
 
