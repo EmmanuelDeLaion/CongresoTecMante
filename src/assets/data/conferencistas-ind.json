@@ -7,6 +7,7 @@
         "carrera": "IND",
         "dia": "16 de Noviembre ",
         "hora": "9:00 a 13:00",
+        "link":"https://meet.google.com/lookup/bf3kng53p7?authuser=0&hs=179",
         "img": "assets/images/conferencistas/marta-elvira.jpg",
         "id": "0"
     },
@@ -19,6 +20,7 @@
         "carrera": "IND",
         "dia": "16 de Noviembre ",
         "hora": "10:00 a 11:00",
+        "link":"https://meet.google.com/ber-nhyj-dij",
         "img": "assets/images/conferencistas/juan-antonio.jpg",
         "id": "1"
     },
@@ -31,6 +33,7 @@
         "carrera": "IND",
         "dia": "16 y 17 de Noviembre ",
         "hora": "11:00 a 13:00 y 10:00 a 11:00",
+        "link":"https://meet.google.com/ber-nhyj-dij",
         "img": "assets/images/conferencistas/lizzeth-quevedo.jpg",
         "id": "2"
     },
@@ -44,6 +47,7 @@
         "carrera": "IND",
         "dia": "16 de Noviembre",
         "hora": "12:00 a 13:00",
+        "link":"https://meet.google.com/mbw-jvqu-jzr",
         "img": "assets/images/conferencistas/david-coronel.jpg",
         "id": "3"
     },
@@ -56,6 +60,7 @@
         "carrera": "IND",
         "dia": "16 de Noviembre",
         "hora": "12:00 a 13:00",
+        "link":"https://meet.google.com/ygo-zspw-inj",
         "img": "assets/images/conferencistas/mario-kanul.jpg",
         "id": "4"
     },
@@ -68,6 +73,7 @@
         "carrera": "IND",
         "dia": "17 de Noviembre",
         "hora": "10:00 a 13:00",
+        "link":"https://meet.google.com/dom-ozzt-noh",
         "img": "assets/images/conferencistas/miguel-angel.jpg",
         "id": "5"
     },
@@ -80,6 +86,7 @@
         "carrera": "IND",
         "dia": "17 de Noviembre",
         "hora": "13:00 a 14:00",
+        "link":"https://meet.google.com/auw-zqvc-bwd",
         "img": "none",
         "id": "6"
     },
@@ -92,6 +99,7 @@
         "carrera": "IND",
         "dia": "17 de Noviembre",
         "hora": "11:00 a 13:00",
+        "link":"https://meet.google.com/lookup/bf3kng53p7?authuser=0&hs=179",
         "img": "assets/images/conferencistas/fernando-efracio.jpg",
         "id": "7"
     },
@@ -104,11 +112,12 @@
         "carrera": "IND",
         "dia": "17 de Noviembre",
         "hora": "10:00 a 12:00",
+        "link":"https://meet.google.com/gyo-zcog-jpu",
         "img": "assets/images/conferencistas/maria-guadalupe.jpg",
         "id": "8"
     },
     {
-        "nombre": "...",
+        "nombre": "Ing. Juan Antonio Gómez Díaz",
         "tipo": "Taller",
         "Temas": "Taller de Seguridad Industrial NOM 017",
         "descripcion": "Norma oficial mexicana en materia de selección, uso y manejo de Equipo de protección personal en los centros de trabajo",
@@ -116,6 +125,7 @@
         "carrera": "IND",
         "dia": "17 de Noviembre",
         "hora": "10:00 a 13:00",
+        "link":"https://meet.google.com/kfm-famj-kgb",
         "img": "none",
         "id": "9"
     },
@@ -126,6 +136,7 @@
         "carrera": "IND",
         "dia": "17 de Noviembre",
         "hora": "10:00 a 13:00",
+        "link":"https://meet.google.com/lookup/bf3kng53p7?authuser=0&hs=179",
         "img": "none",
         "id": "10"
     }

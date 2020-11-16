@@ -14,6 +14,7 @@ import { SwalComponent, SwalPortalTargets } from '@sweetalert2/ngx-sweetalert2';
 export class ConferencistasComponent implements OnInit {
 
   @ViewChild('swalidISC') private swalDetallesISC: SwalComponent;
+  @ViewChild('swalidISCC') private swalDetallesISCConferencias: SwalComponent;
   @ViewChild('swalidIGE') private swalDetallesIGE: SwalComponent;
   @ViewChild('swalidIND') private swalDetallesIND: SwalComponent;
   @ViewChild('swalidIQ') private swalDetallesIQ: SwalComponent;
@@ -25,6 +26,7 @@ export class ConferencistasComponent implements OnInit {
 
   conferensistasIGE: {};
   conferencistasISC: {};
+  conferencistasISCC: {};
   conferencistasIIAS: {};
   conferencistasIND: {};
   conferencistasIQ: {};
@@ -33,14 +35,13 @@ export class ConferencistasComponent implements OnInit {
 
 
   conferencistaFiltradoISC: any;
+  conferencistaFiltradoISCC: any;
   conferencistaFiltradoIGE: any;
   conferencistaFiltradoIND: any;
   conferencistaFiltradoIQ: any;
   conferencistaFiltradoIIAS: any;
   conferencistaFiltradoMag: any;
   conferencistaFiltradoPan: any;
-
-
 
 
   constructor(private http: HttpClient) {
@@ -54,6 +55,7 @@ export class ConferencistasComponent implements OnInit {
       confIias: this.http.get('assets/data/conferencistas-iias.json'),
       confIq: this.http.get('assets/data/conferencistas-iq.json'),
       confIsc: this.http.get('assets/data/conferencistas-isc.json'),
+      confIscC: this.http.get('assets/data/conferencistas-isc.json'),
       confMag: this.http.get('assets/data/conferencistas-magistrales.json'),
       confPan: this.http.get('assets/data/conferencistas-expertos.json')
 
@@ -63,6 +65,7 @@ export class ConferencistasComponent implements OnInit {
       this.conferencistasIIAS = data.confIias;
       this.conferencistasIQ = data.confIq;
       this.conferencistasISC = data.confIsc;
+      this.conferencistasISCC = data.confIscC;
       this.conferensistasMagistral = data.confMag;
       this.conferensistasPanelistas = data.confPan;
     });
@@ -115,13 +118,13 @@ export class ConferencistasComponent implements OnInit {
   }
 
 
-  
   mostrarDetallesPan(evento: any, id) {
     if (id == this.conferensistasPanelistas[id].id) {
       this.conferencistaFiltradoPan = this.conferensistasPanelistas[id];
     }
     this.swalDetallesPan.fire()
   }
+
 
 
 }

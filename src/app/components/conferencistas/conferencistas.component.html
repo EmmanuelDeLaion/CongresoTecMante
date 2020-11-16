@@ -50,7 +50,7 @@
                                     Día:
                                 </div>
                             </th>
-                            <td><span class="dia"> {{conferencistaFiltradoISC.dia1}} </span>
+                            <td> {{conferencistaFiltradoISC.dia1}}
 
                             </td>
                         </tr>
@@ -64,18 +64,27 @@
                             <td>{{conferencistaFiltradoISC.hora1}}</td>
                         </tr>
 
-                         
-                  
-                        <div class="div">
 
-                        </div>
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Enlace:
+                                </div>
+                            </th>
+                            <td>
+                                <a [href]="conferencistaFiltradoISC.link" target="_blank">Ir a la conferencia</a>
+                            </td>
+                        </tr>
+
+
+
                         <tr>
                             <th>
                                 <div class="row">
                                     Día:
                                 </div>
                             </th>
-                            <td> <span class="dia"> {{conferencistaFiltradoISC.dia2}} </span> </td>
+                            <td> {{conferencistaFiltradoISC.dia2}} </td>
                         </tr>
 
                         <tr>
@@ -87,11 +96,17 @@
                             <td>{{conferencistaFiltradoISC.hora2}}</td>
                         </tr>
 
-              
 
-                        
-
-
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Enlace:
+                                </div>
+                            </th>
+                            <td>
+                                <a [href]="conferencistaFiltradoISC.link2" target="_blank">Ir a la conferencia</a>
+                            </td>
+                        </tr>
 
                     </thead>
                 </table>
@@ -100,6 +115,9 @@
         </div>
     </div>
 </swal>
+
+
+
 
 <!-- ige -->
 <swal class="swal-wide" #swalidIGE title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
@@ -172,7 +190,7 @@
                                 </div>
                             </th>
                             <td>
-                                <a [href]="conferencistaFiltradoIGE.link">Ir a la conferencia</a>
+                                <a [href]="conferencistaFiltradoIGE.link" target="_blank">Ir a la conferencia</a>
                             </td>
                         </tr>
 
@@ -183,6 +201,7 @@
         </div>
     </div>
 </swal>
+
 
 <!-- ind -->
 <swal class="swal-wide" #swalidIND title="Información del conferencista" [swalOptions]="{customClass: 'clase'}">
@@ -246,6 +265,17 @@
                                 </div>
                             </th>
                             <td>{{conferencistaFiltradoIND.hora}}</td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Enlace:
+                                </div>
+                            </th>
+                            <td>
+                                <a [href]="conferencistaFiltradoIND.link" target="_blank">Ir a la conferencia</a>
+                            </td>
                         </tr>
 
                     </thead>
@@ -321,6 +351,18 @@
                             <td>{{conferencistaFiltradoIQ.hora}}</td>
                         </tr>
 
+
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Enlace:
+                                </div>
+                            </th>
+                            <td>
+                                <a [href]="conferencistaFiltradoIQ.link" target="_blank">Ir a la conferencia</a>
+                            </td>
+                        </tr>
+
                     </thead>
                 </table>
             </div>
@@ -392,6 +434,17 @@
                                 </div>
                             </th>
                             <td>{{conferencistaFiltradoIIAS.hora}}</td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <div class="row">
+                                    Enlace:
+                                </div>
+                            </th>
+                            <td>
+                                <a [href]="conferencistaFiltradoIIAS.link" target="_blank">Ir a la conferencia</a>
+                            </td>
                         </tr>
 
                     </thead>
@@ -474,7 +527,7 @@
                                 </div>
                             </th>
                             <td>
-                                <a [href]="conferencistaFiltradoMag.link">Ir a la conferencia</a>
+                                <a [href]="conferencistaFiltradoMag.link" target="_blank">Ir a la conferencia</a>
                             </td>
                         </tr>
 
@@ -527,7 +580,7 @@
                                 </div>
                             </th>
                             <td>
-                                <a [href]="conferencistaFiltradoPan.link">Ir a la conferencia</a>
+                                <a [href]="conferencistaFiltradoPan.link" target="_blank">Ir a la conferencia</a>
                             </td>
                         </tr>
 

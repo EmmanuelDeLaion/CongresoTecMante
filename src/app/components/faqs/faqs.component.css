@@ -43,3 +43,22 @@ h2{
 .faqs{
     padding: 20px;
 }
+
+.tamaño-logo{
+    margin-top: 10px;
+    border-radius: 100em;
+    width: 150px;
+}
+
+img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.5s;
+}
+
+img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
