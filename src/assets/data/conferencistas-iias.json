@@ -7,6 +7,7 @@
     "carrera": "IIAS",
     "dia": "16 de Noviembre",
     "hora": "9:30 am a 10:20 am",
+    "link":"https://meet.google.com/kig-xxib-waq",
     "img": "assets/images/conferencistas/edgar.jpg",
     "id": "0"
 },
@@ -14,11 +15,12 @@
     "nombre": "Jorge Luis Vega Chávez",
     "tipo": "Conferencia",
     "Temas": "Biología de tamarixia triozae parasitoide de bactericera cockerelli",
-    "descripcion": "Instituto Tecnológico de Cd. Victoria.",
+    "descripcion": "Tecnológico Superior de Huichapan (ITESHU)",
     "inicial": "J",
     "carrera": "IIAS",
     "dia": "16 de Noviembre",
     "hora": "11:30 am a 12:30 pm",
+    "link":"https://meet.google.com/jij-gibs-wug",
     "img": "assets/images/conferencistas/vega.jpg",
     "id": "1"
 },
@@ -26,11 +28,12 @@
     "nombre": "M.C Ana Karen Serrano Domínguez",
     "tipo": "Conferencia",
     "Temas": "Enemigos naturales (Insecta: Hymenoptera) del gusano cogollero Spodoptera frugiperda (J.E. Smith) (Lepidoptera: Noctuidae)",
-    "descripcion": "none",
+    "descripcion": "Universidad Autónoma de Tamaulipas",
     "inicial": "A",
     "carrera": "IIAS",
     "dia": "16 de Noviembre",
     "hora": "12:45 a 13:45",
+    "link":"https://meet.google.com/poh-wbuc-pwf",
     "img": "assets/images/conferencistas/karen.jpg",
     "id": "2"
 },
@@ -43,6 +46,7 @@
     "carrera": "IIAS",
     "dia": "17 de Noviembre",
     "hora": "10:00 a 11:00",
+    "link":"http://meet.google.com/wxw-uoav-fsg",
     "img": "assets/images/conferencistas/guadalupe.jpg",
     "id": "3"
 },
@@ -55,11 +59,12 @@
     "carrera": "IIAS",
     "dia": "17 de Noviembre",
     "hora": "14:00 a 15:00",
+    "link":"http://meet.google.com/nmg-stgh-jip",
     "img": "none",
     "id": "4"
 },
 {
-    "nombre": "Dr. Jorge Ariel Torres Acosta",
+    "nombre": "Dr. Jorge Ariel Torres Castillo",
     "tipo": "Conferencia",
     "Temas": "Chile Piquín: Aspectos ecológicos hacia su manejo integral, diversidad fitoquímica y productos derivados",
     "descripcion": "Profesor de Carrera del Instituto de Ecología Aplicada de la Universidad Autónoma de Tamaulipas",
@@ -67,27 +72,21 @@
     "carrera": "IIAS",
     "dia": "17 de Noviembre",
     "hora": "11:15 a 12:15",
+    "link":"http://meet.google.com/gdo-atpg-hdb",
     "img": "assets/images/conferencistas/jorge-ariel.jpg",
     "id": "5"
 },
-{
-    "nombre": "Ing. Rubén Esquivel Mendiola",
-    "tipo": "Conferencia",
-    "inicial": "J",
-    "carrera": "IIAS",
-    "dia": "17 de Noviembre",
-    "hora": "12:30 a 13:30",
-    "img": "none",
-    "id": "6"
-},
+
 {
     "nombre": "Dr. Carlos de los Ríos",
     "tipo": "Conferencia",
+    "descripcion":"COSA - Committee On Sustainability Assessment",
     "inicial": "J",
     "carrera": "IIAS",
     "dia": "16 de Noviembre",
     "hora": "14:00 a 15:00",
+    "link":"http://meet.google.com/avi-fmqc-pmi",
     "img": "none",
-    "id": "7"
+    "id": "6"
 }
 ]
